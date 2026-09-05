@@ -54,19 +54,28 @@ export const StationBoard: React.FC<StationBoardProps> = ({
       const updatedQuota = getGuestRemainingQuota();
       setGuestQuota(updatedQuota);
 
-      if (items && items.length > 0) {
+      if (items !== null) {
         setLiveArrivals(items);
         setIsLiveActive(true);
-        setQuotaToast('已成功同步實體即時動態！');
+        if (items.length > 0) {
+          setQuotaToast('已成功同步實體即時動態 (月台列車停靠中)！');
+        } else {
+          setQuotaToast('Worker 連線正常：目前月台無停靠車，依時刻表推算發車倒數');
+        }
       } else {
         setLiveArrivals(null);
         setIsLiveActive(false);
         if (liveMode === 'guest' && updatedQuota === 0) {
           setQuotaToast('今日 TDX 訪客直連額度 (20次/日) 已達上限 (HTTP 429)，自動降級為離線班表。');
         } else {
-          setQuotaToast('已完成查詢（目前維持離線時刻表推算）');
+          setQuotaToast('連線異常，目前維持離線時刻表推算');
         }
       }
+      setTimeout(() => setQuotaToast(null), 5000);
+    } catch (e) {
+      setLiveArrivals(null);
+      setIsLiveActive(false);
+      setQuotaToast('連線異常，目前維持離線時刻表推算');
       setTimeout(() => setQuotaToast(null), 5000);
     } finally {
       setIsRefreshing(false);
@@ -76,7 +85,7 @@ export const StationBoard: React.FC<StationBoardProps> = ({
   useEffect(() => {
     let isMounted = true;
     let timerId: ReturnType<typeof setTimeout> | null = null;
-    let currentDelay = 20000; // 基礎間隔 20 秒
+    let currentDelay = 25000; // Worker 全路網快取週期 25 秒
 
     const scheduleNext = (delay: number) => {
       if (!isMounted) return;
@@ -88,20 +97,21 @@ export const StationBoard: React.FC<StationBoardProps> = ({
         const items = await fetchLiveBoard(station.code);
         if (!isMounted) return;
         setGuestQuota(getGuestRemainingQuota());
-        if (items && items.length > 0) {
+
+        if (items !== null) {
+          // 成功取得資料 (即便長度為 0 亦代表 Worker 連線正常且確認月台目前無車)
           setLiveArrivals(items);
           setIsLiveActive(true);
-          currentDelay = 20000;
-          // 若為 Worker 模式，持續自動輪詢；若為訪客模式，不頻繁自動輪詢以保護每日 20 次額度
+          currentDelay = 25000;
           if (liveMode === 'worker') {
             scheduleNext(currentDelay);
           }
         } else {
+          // 真正連線失敗 / 429
           setLiveArrivals(null);
           setIsLiveActive(false);
           if (liveMode === 'worker') {
-            // 失敗或無資料時指數退避：20s -> 40s -> 80s -> 最大 300s (5分鐘)
-            currentDelay = Math.min(currentDelay * 2, 300000);
+            currentDelay = Math.min(currentDelay * 1.5, 60000);
             scheduleNext(currentDelay);
           }
         }
@@ -111,7 +121,7 @@ export const StationBoard: React.FC<StationBoardProps> = ({
         setLiveArrivals(null);
         setIsLiveActive(false);
         if (liveMode === 'worker') {
-          currentDelay = Math.min(currentDelay * 2, 300000);
+          currentDelay = Math.min(currentDelay * 1.5, 60000);
           scheduleNext(currentDelay);
         }
       }
@@ -214,7 +224,9 @@ export const StationBoard: React.FC<StationBoardProps> = ({
               <div className="status-pill live-connected" style={{ borderColor: '#3b82f6', background: 'rgba(59, 130, 246, 0.12)' }}>
                 <span className="status-indicator" style={{ backgroundColor: '#3b82f6' }}></span>
                 <span className="status-pill-text" style={{ color: '#3b82f6', fontWeight: 700 }}>
-                  ⚡ Cloudflare Worker 即時動態 (全域快取連線中)
+                  {matchedLiveItem
+                    ? '⚡ Cloudflare Worker 即時動態 (列車月台停靠中)'
+                    : '⚡ Cloudflare Worker 連線中 (月台無列車 · 表定推算倒數)'}
                 </span>
               </div>
             ) : (

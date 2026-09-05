@@ -99,11 +99,11 @@ export async function fetchLiveBoard(
   // 1. 本機防抖快取檢查 (訪客模式 45s / Worker 模式 20s)
   const ttl = mode === 'guest' ? 45000 : 20000;
   if (!forceRefresh && memoryCache[code] && now - memoryCache[code].timestamp < ttl) {
-    return memoryCache[code].data.length > 0 ? memoryCache[code].data : null;
+    return memoryCache[code].data;
   }
 
   const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 3500); // 3.5 秒超時保護
+  const timeoutId = setTimeout(() => controller.abort(), 4000); // 4 秒超時保護
 
   try {
     let url: string;
@@ -160,7 +160,7 @@ export async function fetchLiveBoard(
     const data = (await res.json()) as TDXLiveItem[];
     if (Array.isArray(data)) {
       memoryCache[code] = { timestamp: now, data };
-      return data.length > 0 ? data : null;
+      return data;
     }
     return null;
   } catch (err) {
