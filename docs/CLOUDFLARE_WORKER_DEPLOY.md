@@ -50,8 +50,10 @@
 | :--- | :--- | :--- |
 | `CLOUDFLARE_API_TOKEN` | 步驟一所取得之 Cloudflare API Token | `v1.0-xxxx-xxxx...` |
 | `CLOUDFLARE_ACCOUNT_ID` | 您的 Cloudflare Account ID | `9a8b7c6d5e...` |
-| `TDX_CLIENT_ID` | 交通部 TDX 平台核發之 Client ID | `your-tdx-client-id` |
-| `TDX_CLIENT_SECRET` | 交通部 TDX 平台核發之 Client Secret | `your-tdx-client-secret` |
+| `TDX_CLIENT_ID` | 交通部 TDX 平台核發之 Client ID (選填，未填時僅部署 Worker 骨架) | `your-tdx-client-id` |
+| `TDX_CLIENT_SECRET` | 交通部 TDX 平台核發之 Client Secret (選填) | `your-tdx-client-secret` |
+
+> 💡 **自動容錯機制**：工作流已實作條件判斷，若尚未在 GitHub Secrets 設定 `TDX_CLIENT_ID`，Worker 依然會成功發布並提供 `/health` 健康檢查，不會中斷 Pipeline。
 
 ### 2. Repository Variables (非敏感環境變數 - 前端注入)
 切換至 **Variables** 標籤，點擊 **New repository variable**：
