@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Clock, Info, Star, Train, AlertCircle, Sparkles, ChevronRight, LayoutGrid, List } from 'lucide-react';
+import { Clock, Info, Star, Train, AlertCircle, Sparkles, ChevronRight, LayoutGrid, List, RefreshCw } from 'lucide-react';
 import { DayType, StationDetail, StationSummary, TimetableDirection } from '../types/metro';
 import {
   calculateNextTrains,
@@ -9,7 +9,7 @@ import {
   getScheduleForDay,
   groupDeparturesByHour,
 } from '../services/timetableEngine';
-import { fetchLiveBoard, TDXLiveItem } from '../services/tdxService';
+import { fetchLiveBoard, TDXLiveItem, getLiveBoardMode, getGuestRemainingQuota } from '../services/tdxService';
 
 interface StationBoardProps {
   station: StationSummary;
@@ -35,6 +35,26 @@ export const StationBoard: React.FC<StationBoardProps> = ({
   const [layoutMode, setLayoutMode] = useState<'grid' | 'list'>('grid');
   const [liveArrivals, setLiveArrivals] = useState<TDXLiveItem[] | null>(null);
   const [isLiveActive, setIsLiveActive] = useState<boolean>(false);
+  const [isRefreshing, setIsRefreshing] = useState<boolean>(false);
+  const liveMode = getLiveBoardMode();
+  const [guestQuota, setGuestQuota] = useState<number | null>(getGuestRemainingQuota());
+
+  const handleManualRefresh = async () => {
+    setIsRefreshing(true);
+    try {
+      const items = await fetchLiveBoard(station.code, true);
+      setGuestQuota(getGuestRemainingQuota());
+      if (items && items.length > 0) {
+        setLiveArrivals(items);
+        setIsLiveActive(true);
+      } else {
+        setLiveArrivals(null);
+        setIsLiveActive(false);
+      }
+    } finally {
+      setIsRefreshing(false);
+    }
+  };
 
   useEffect(() => {
     let isMounted = true;
@@ -50,24 +70,33 @@ export const StationBoard: React.FC<StationBoardProps> = ({
       try {
         const items = await fetchLiveBoard(station.code);
         if (!isMounted) return;
+        setGuestQuota(getGuestRemainingQuota());
         if (items && items.length > 0) {
           setLiveArrivals(items);
           setIsLiveActive(true);
-          currentDelay = 20000; // 成功時重設退避計時為 20 秒
-          scheduleNext(currentDelay);
+          currentDelay = 20000;
+          // 若為 Worker 模式，持續自動輪詢；若為訪客模式，不頻繁自動輪詢以保護每日 20 次額度
+          if (liveMode === 'worker') {
+            scheduleNext(currentDelay);
+          }
         } else {
           setLiveArrivals(null);
           setIsLiveActive(false);
-          // 失敗或無資料時指數退避：20s -> 40s -> 80s -> 最大 300s (5分鐘)
-          currentDelay = Math.min(currentDelay * 2, 300000);
-          scheduleNext(currentDelay);
+          if (liveMode === 'worker') {
+            // 失敗或無資料時指數退避：20s -> 40s -> 80s -> 最大 300s (5分鐘)
+            currentDelay = Math.min(currentDelay * 2, 300000);
+            scheduleNext(currentDelay);
+          }
         }
       } catch (e) {
         if (!isMounted) return;
+        setGuestQuota(getGuestRemainingQuota());
         setLiveArrivals(null);
         setIsLiveActive(false);
-        currentDelay = Math.min(currentDelay * 2, 300000);
-        scheduleNext(currentDelay);
+        if (liveMode === 'worker') {
+          currentDelay = Math.min(currentDelay * 2, 300000);
+          scheduleNext(currentDelay);
+        }
       }
     };
 
@@ -77,7 +106,7 @@ export const StationBoard: React.FC<StationBoardProps> = ({
       isMounted = false;
       if (timerId) clearTimeout(timerId);
     };
-  }, [station.code]);
+  }, [station.code, liveMode]);
 
   const timetables = stationDetail?.Timetables || [];
   const currentDirection: TimetableDirection | undefined = timetables[selectedDirectionIdx] || timetables[0];
@@ -141,19 +170,52 @@ export const StationBoard: React.FC<StationBoardProps> = ({
           </div>
         </div>
 
-        {/* Live Status Header Tag */}
-        <div className="station-hero-right">
+        {/* Live Status Header Tag & Manual Refresh */}
+        <div className="station-hero-right" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+          <button
+            className="btn-secondary"
+            onClick={handleManualRefresh}
+            disabled={isRefreshing}
+            title={liveMode === 'worker' ? '手動強制更新到站 (Worker 模式)' : '手動更新實體到站 (消耗 1 次 TDX 訪客額度)'}
+            style={{
+              padding: '0.28rem 0.65rem',
+              fontSize: '0.78rem',
+              borderRadius: '9999px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.35rem',
+              cursor: isRefreshing ? 'not-allowed' : 'pointer',
+              whiteSpace: 'nowrap',
+            }}
+          >
+            <RefreshCw size={13} className={isRefreshing ? 'spin' : ''} />
+            <span>{isRefreshing ? '更新中' : '即時更新'}</span>
+          </button>
+
           {isLiveActive ? (
             <div className="status-pill live-connected" style={{ borderColor: '#ef4444', background: 'rgba(239, 68, 68, 0.1)' }}>
               <span className="status-indicator" style={{ backgroundColor: '#ef4444' }}></span>
               <span className="status-pill-text" style={{ color: '#ef4444', fontWeight: 700 }}>
-                🔴 TDX 實體即時動態
+                {liveMode === 'guest'
+                  ? `🔴 訪客直連 (今日剩餘 ${guestQuota !== null ? guestQuota : '≤20'} 次)`
+                  : '🔴 TDX 實體即時動態'}
+              </span>
+            </div>
+          ) : station.line === 'BR' ? (
+            <div className="status-pill" style={{ borderColor: '#c48c31', background: 'rgba(196, 140, 49, 0.1)' }}>
+              <span className="status-indicator" style={{ backgroundColor: '#c48c31' }}></span>
+              <span className="status-pill-text" style={{ color: '#c48c31', fontWeight: 700 }}>
+                🟡 文湖線班距推估 (官方無固定分秒)
               </span>
             </div>
           ) : (
             <div className="status-pill">
               <span className="status-indicator"></span>
-              <span className="status-pill-text">🟢 離線推算中 ({formatTimeHM(currentTime)}) · 基準 115.8.30 版</span>
+              <span className="status-pill-text">
+                {liveMode === 'guest' && guestQuota !== null
+                  ? `🟢 離線推算中 (${formatTimeHM(currentTime)}) · 訪客額度剩 ${guestQuota} 次`
+                  : `🟢 離線推算中 (${formatTimeHM(currentTime)}) · 基準 115.8.30 版`}
+              </span>
             </div>
           )}
         </div>
@@ -172,6 +234,40 @@ export const StationBoard: React.FC<StationBoardProps> = ({
               <span>{dir.Direction}</span>
             </button>
           ))}
+        </div>
+      )}
+
+      {/* 文湖線特性告示卡 (無固定分秒時刻，到站全權依賴實體車況) */}
+      {station.line === 'BR' && (
+        <div
+          className="wenhu-notice-banner"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.65rem',
+            padding: '0.65rem 1rem',
+            marginTop: '0.75rem',
+            background: 'rgba(196, 140, 49, 0.1)',
+            border: '1px solid rgba(196, 140, 49, 0.3)',
+            borderRadius: 'var(--radius-sharp)',
+            fontSize: '0.84rem',
+            lineHeight: 1.5,
+          }}
+        >
+          <AlertCircle size={18} color="#c48c31" style={{ flexShrink: 0 }} />
+          <div>
+            <strong style={{ color: '#c48c31' }}>文湖線營運特性提醒：</strong>
+            本線為全自動無人駕駛中運量系統，北捷官方未發布固定分秒時刻表。
+            {isLiveActive ? (
+              <span style={{ color: '#10b981', fontWeight: 700 }}>
+                {' '}到站倒數已全權依賴 Cloudflare 代理之 TDX 實體即時車況。
+              </span>
+            ) : (
+              <span>
+                {' '}全日時刻為依官方公告班距（尖峰 2~4 分、離峰 4~7 分）推估之參考值，精準到站請以實體車況為準。
+              </span>
+            )}
+          </div>
         </div>
       )}
 
@@ -202,11 +298,15 @@ export const StationBoard: React.FC<StationBoardProps> = ({
                   <div className="badge-dst-group">
                     <span className="train-dst">往 {train.dst}</span>
                     {train.isShuttle && <span className="shuttle-tag">區間車</span>}
-                    {idx === 0 && matchedLiveItem && (
+                    {idx === 0 && matchedLiveItem ? (
                       <span className="shuttle-tag" style={{ background: '#ef4444', color: '#fff' }}>
-                        即時動態
+                        實體車即時
                       </span>
-                    )}
+                    ) : station.line === 'BR' ? (
+                      <span className="shuttle-tag" style={{ background: '#c48c31', color: '#fff' }}>
+                        班距推估
+                      </span>
+                    ) : null}
                   </div>
                 </div>
 
@@ -222,7 +322,9 @@ export const StationBoard: React.FC<StationBoardProps> = ({
                 ) : (
                   <div className="card-countdown">
                     <span className="countdown-number">{train.minutesAway}</span>
-                    <span className="countdown-unit">分後發車</span>
+                    <span className="countdown-unit">
+                      {station.line === 'BR' ? '分後 (班距推估)' : '分後發車'}
+                    </span>
                   </div>
                 )}
 

@@ -35,7 +35,9 @@
 
 | 資料類型 | 提供單位 / 來源平台 | 資料版本 / 格式 |
 | :--- | :--- | :--- |
-| **官方月台時刻表** | [臺北大眾捷運股份有限公司 (TRTC)](https://www.metro.taipei/) | **民國 115 年 8 月 30 日（2026-08-30）** 最新改點版 PDF |
+| **官方月台時刻表** | [臺北大眾捷運股份有限公司 (TRTC)](https://www.metro.taipei/) | **民國 115 年 8 月 30 日（2026-08-30）** 最新改點版 PDF（高運量 R、BL、G、O 線） |
+| **文湖線動態營運說明** | [臺北大眾捷運股份有限公司 (TRTC)](https://www.metro.taipei/) | 全自動無人駕駛中運量系統（官方無固定分秒時刻表），本系統依官方公告班距（尖峰 2~4 分、離峰 4~7 分）推估，到站倒數優先以 TDX 實體動態為準 |
+| **新北捷運環狀線時刻表** | [新北捷運股份有限公司 (NTMetro)](https://www.ntmetro.com.tw/) | **民國 114 年 1 月 20 日** 環狀線全日時刻表（大坪林 ⇋ 新北產業園區） |
 | **路網與即時動態** | [交通部 TDX 運輸資料流通服務平臺](https://tdx.transportdata.tw/) | `MetroApi_StationTimeTable_2104` 結構化 OpenAPI（詳見 [TDX 基礎會員申請指南](docs/TDX_API_GUIDE.md)） |
 | **站別時刻資料服務** | [臺北市政府資料大平臺 (Data.Taipei)](https://data.taipei/) | 台北捷運站別發車時刻資料集 |
 | **架構啟發與致敬** | [Eric Yu 台北捷運時刻表專案](https://ericyu.org/TaipeiMetroTime/) | [TaipeiMetroTimeTableParser](https://github.com/ericyu/TaipeiMetroTimeTableParser) 底線偵測演算法設計 |

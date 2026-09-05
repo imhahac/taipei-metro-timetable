@@ -127,11 +127,11 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
           <div className="settings-card">
             <div className="settings-card-title">
               <Cloud size={18} color="#3b82f6" />
-              <h3>TDX 即時到站邊緣代理 (Cloudflare Worker)</h3>
+              <h3>TDX 即時到站雙軌引擎 (Cloudflare Worker / 訪客免密直連)</h3>
             </div>
             <p className="settings-card-desc">
-              若需啟用實體列車即時到站 (LiveBoard)，請填入由 GitHub Actions 部署的 Worker 網址。
-              <strong>TDX Client ID 與 Secret 安全保存在雲端環境，前端無需任何金鑰。</strong>
+              <strong>未填寫 Worker 網址時：</strong>系統預設自動啟用【TDX 官方訪客免金鑰直連模式】，直接由瀏覽器發起請求（受限於每日 20 次/IP，支援按需單次手動更新）。<br />
+              <strong>配置 Worker 網址後：</strong>自動切換至【邊緣代理模式】，享有伺服器端全域快取、自動高頻輪詢與金鑰安全隔離。
             </p>
 
             <div className="form-group">
