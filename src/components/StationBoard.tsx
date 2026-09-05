@@ -93,6 +93,11 @@ export const StationBoard: React.FC<StationBoardProps> = ({
     };
 
     const loadLive = async () => {
+      // 若分頁處於背景或手機螢幕鎖定，立即停止發送請求，零 API 消耗
+      if (document.visibilityState !== 'visible') {
+        return;
+      }
+
       try {
         const items = await fetchLiveBoard(station.code);
         if (!isMounted) return;
@@ -127,11 +132,21 @@ export const StationBoard: React.FC<StationBoardProps> = ({
       }
     };
 
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        loadLive();
+      } else {
+        if (timerId) clearTimeout(timerId);
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
     loadLive();
 
     return () => {
       isMounted = false;
       if (timerId) clearTimeout(timerId);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
     };
   }, [station.code, liveMode]);
 
