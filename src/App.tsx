@@ -59,22 +59,53 @@ export const App: React.FC = () => {
     return () => clearInterval(timer);
   }, [simulatedTime]);
 
-  // Load Network Metadata
+  // Load Network Metadata & Initialize Selected Station
   useEffect(() => {
     fetch('./data/network_meta.json')
       .then((res) => res.json())
       .then((meta: NetworkMeta) => {
         setNetworkMeta(meta);
-        // 預設選取南京三民 (G18)
-        if (meta.stations['G18']) {
-          setSelectedStation(meta.stations['G18']);
-        } else {
-          const first = Object.values(meta.stations)[0];
-          if (first) setSelectedStation(first);
+
+        // 優先讀取 URL query param (如 ?st=G01) 或 localStorage 紀錄，避免重新整理跳回南京三民
+        let targetCode = '';
+        try {
+          const urlParams = new URLSearchParams(window.location.search);
+          const stParam = urlParams.get('st') || urlParams.get('station');
+          if (stParam && meta.stations[stParam.toUpperCase()]) {
+            targetCode = stParam.toUpperCase();
+          } else {
+            const saved = localStorage.getItem('metro_last_selected_station');
+            if (saved && meta.stations[saved.toUpperCase()]) {
+              targetCode = saved.toUpperCase();
+            }
+          }
+        } catch (e) {
+          // 靜默處理
+        }
+
+        const target = (targetCode && meta.stations[targetCode]) || meta.stations['G18'] || Object.values(meta.stations)[0];
+        if (target) {
+          setSelectedStation(target);
         }
       })
       .catch((err) => console.error('Failed to load network_meta.json', err));
   }, []);
+
+  // 同步記住使用者最後瀏覽的車站 (localStorage + URL)，重新整理維持該站
+  useEffect(() => {
+    if (selectedStation) {
+      try {
+        localStorage.setItem('metro_last_selected_station', selectedStation.code);
+        const url = new URL(window.location.href);
+        if (url.searchParams.get('st') !== selectedStation.code) {
+          url.searchParams.set('st', selectedStation.code);
+          window.history.replaceState({}, '', url.toString());
+        }
+      } catch (e) {
+        // 靜默處理
+      }
+    }
+  }, [selectedStation]);
 
   // Load Station Timetable Detail
   useEffect(() => {

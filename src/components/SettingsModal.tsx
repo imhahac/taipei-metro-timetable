@@ -45,18 +45,44 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
     setWorkerTestResult(null);
     try {
       const base = workerUrl.trim().endsWith('/') ? workerUrl.trim().slice(0, -1) : workerUrl.trim();
-      const res = await fetch(`${base}/health`, { signal: AbortSignal.timeout(4000) });
-      if (res.ok) {
-        const json = await res.json();
+
+      // 1. 檢驗 /health 端點健康狀態
+      const healthRes = await fetch(`${base}/health`, { signal: AbortSignal.timeout(4000) });
+      if (!healthRes.ok) {
+        setWorkerTestResult({ success: false, message: `Worker 基礎連線失敗 (HTTP ${healthRes.status})` });
+        return;
+      }
+      const healthJson = await healthRes.json();
+
+      if (!healthJson.hasCredentials) {
+        setWorkerTestResult({
+          success: false,
+          message: `Worker 已在線，但尚未配置 TDX_CLIENT_ID / TDX_CLIENT_SECRET，無法取得即時資料！`,
+        });
+        return;
+      }
+
+      // 2. 深入檢驗實體列車即時到站端點 /api/live?stationId=G18
+      const liveRes = await fetch(`${base}/api/live?stationId=G18`, { signal: AbortSignal.timeout(5000) });
+      if (liveRes.ok) {
+        const liveData = await liveRes.json();
+        const count = Array.isArray(liveData) ? liveData.length : 0;
+        const first = Array.isArray(liveData) && liveData.length > 0 ? liveData[0] : null;
         setWorkerTestResult({
           success: true,
-          message: `連線成功！服務正常 (狀態: ${json.status || 'online'})`,
+          message: `驗證成功！Worker 連線正常且成功取得 TDX 實體動態 (G18 南京三民回傳 ${count} 班列車${
+            first ? `，下班車預估 ${first.EstimateTime} 秒後到站` : ''
+          })`,
         });
       } else {
-        setWorkerTestResult({ success: false, message: `伺服器回應錯誤 HTTP ${res.status}` });
+        const errText = await liveRes.text();
+        setWorkerTestResult({
+          success: false,
+          message: `Worker 在線但 TDX 查詢失敗 (HTTP ${liveRes.status})：${errText.slice(0, 100)}`,
+        });
       }
     } catch (e: any) {
-      setWorkerTestResult({ success: false, message: `無法連線: ${e.message}` });
+      setWorkerTestResult({ success: false, message: `無法連線至 Worker: ${e.message}` });
     } finally {
       setTestingWorker(false);
     }

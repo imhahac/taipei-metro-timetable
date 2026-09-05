@@ -210,39 +210,66 @@ export const StationBoard: React.FC<StationBoardProps> = ({
           </button>
 
           {isLiveActive ? (
-            <div className="status-pill live-connected" style={{ borderColor: '#ef4444', background: 'rgba(239, 68, 68, 0.1)' }}>
-              <span className="status-indicator" style={{ backgroundColor: '#ef4444' }}></span>
-              <span className="status-pill-text" style={{ color: '#ef4444', fontWeight: 700 }}>
-                {liveMode === 'guest'
-                  ? `🔴 訪客直連 (今日剩餘 ${guestQuota !== null ? guestQuota : '≤20'} 次)`
-                  : '🔴 TDX 實體即時動態'}
-              </span>
-            </div>
+            liveMode === 'worker' ? (
+              <div className="status-pill live-connected" style={{ borderColor: '#3b82f6', background: 'rgba(59, 130, 246, 0.12)' }}>
+                <span className="status-indicator" style={{ backgroundColor: '#3b82f6' }}></span>
+                <span className="status-pill-text" style={{ color: '#3b82f6', fontWeight: 700 }}>
+                  ⚡ Cloudflare Worker 即時動態 (全域快取連線中)
+                </span>
+              </div>
+            ) : (
+              <div className="status-pill live-connected" style={{ borderColor: '#ef4444', background: 'rgba(239, 68, 68, 0.12)' }}>
+                <span className="status-indicator" style={{ backgroundColor: '#ef4444' }}></span>
+                <span className="status-pill-text" style={{ color: '#ef4444', fontWeight: 700 }}>
+                  🔴 TDX 訪客直連即時 (今日剩餘 {guestQuota !== null ? guestQuota : '≤20'} 次)
+                </span>
+              </div>
+            )
           ) : station.line === 'BR' ? (
-            <div className="status-pill" style={{ borderColor: '#c48c31', background: 'rgba(196, 140, 49, 0.1)' }}>
+            <div className="status-pill" style={{ borderColor: '#c48c31', background: 'rgba(196, 140, 49, 0.12)' }}>
               <span className="status-indicator" style={{ backgroundColor: '#c48c31' }}></span>
               <span className="status-pill-text" style={{ color: '#c48c31', fontWeight: 700 }}>
-                🟡 文湖線班距推估 (官方無固定分秒)
+                🟡 文湖線班距推估 (官方無固定分秒時刻表)
               </span>
             </div>
           ) : (
             <div
               className="status-pill"
-              style={liveMode === 'guest' && guestQuota === 0 ? { borderColor: '#f59e0b', background: 'rgba(245, 158, 11, 0.1)' } : undefined}
+              style={
+                liveMode === 'guest' && guestQuota === 0
+                  ? { borderColor: '#f59e0b', background: 'rgba(245, 158, 11, 0.12)' }
+                  : liveMode === 'worker'
+                  ? { borderColor: '#f59e0b', background: 'rgba(245, 158, 11, 0.12)' }
+                  : undefined
+              }
             >
               <span
                 className="status-indicator"
-                style={liveMode === 'guest' && guestQuota === 0 ? { backgroundColor: '#f59e0b' } : undefined}
+                style={
+                  liveMode === 'guest' && guestQuota === 0
+                    ? { backgroundColor: '#f59e0b' }
+                    : liveMode === 'worker'
+                    ? { backgroundColor: '#f59e0b' }
+                    : undefined
+                }
               ></span>
               <span
                 className="status-pill-text"
-                style={liveMode === 'guest' && guestQuota === 0 ? { color: '#f59e0b', fontWeight: 700 } : undefined}
+                style={
+                  liveMode === 'guest' && guestQuota === 0
+                    ? { color: '#f59e0b', fontWeight: 700 }
+                    : liveMode === 'worker'
+                    ? { color: '#f59e0b', fontWeight: 700 }
+                    : undefined
+                }
               >
-                {liveMode === 'guest' && guestQuota === 0
-                  ? `🟡 離線推算中 (${formatTimeHM(currentTime)}) · 訪客額度已用罄 (20次/日)`
+                {liveMode === 'worker'
+                  ? `🟡 表定時刻表推算中 (${formatTimeHM(currentTime)}) · Worker 重試中`
+                  : liveMode === 'guest' && guestQuota === 0
+                  ? `🟡 表定時刻表推算中 (${formatTimeHM(currentTime)}) · 訪客額度已用罄 (20次/日)`
                   : liveMode === 'guest' && guestQuota !== null
-                  ? `🟢 離線推算中 (${formatTimeHM(currentTime)}) · 訪客額度剩 ${guestQuota} 次`
-                  : `🟢 離線推算中 (${formatTimeHM(currentTime)}) · 基準 115.8.30 版`}
+                  ? `🟢 表定時刻表推算中 (${formatTimeHM(currentTime)}) · 訪客額度剩 ${guestQuota} 次`
+                  : `🟢 表定時刻表推算中 (${formatTimeHM(currentTime)}) · 基準 115.8.30 版`}
               </span>
             </div>
           )}
@@ -349,39 +376,65 @@ export const StationBoard: React.FC<StationBoardProps> = ({
                     <span className="train-dst">往 {train.dst}</span>
                     {train.isShuttle && <span className="shuttle-tag">區間車</span>}
                     {idx === 0 && matchedLiveItem ? (
-                      <span className="shuttle-tag" style={{ background: '#ef4444', color: '#fff' }}>
-                        實體車即時
-                      </span>
+                      liveMode === 'worker' ? (
+                        <span className="shuttle-tag" style={{ background: '#2563eb', color: '#fff', fontWeight: 700 }}>
+                          ⚡ Worker 即時
+                        </span>
+                      ) : (
+                        <span className="shuttle-tag" style={{ background: '#dc2626', color: '#fff', fontWeight: 700 }}>
+                          🔴 訪客直連即時
+                        </span>
+                      )
                     ) : station.line === 'BR' ? (
                       <span className="shuttle-tag" style={{ background: '#c48c31', color: '#fff' }}>
                         班距推估
                       </span>
-                    ) : null}
+                    ) : (
+                      <span className="shuttle-tag" style={{ background: 'var(--bg-subtle)', color: 'var(--text-muted)', border: '1px solid var(--border-main)' }}>
+                        📅 時刻表排定
+                      </span>
+                    )}
                   </div>
                 </div>
 
                 {idx === 0 && matchedLiveItem ? (
                   <div className="card-countdown">
-                    <span className="countdown-number" style={{ color: '#ef4444' }}>
+                    <span className="countdown-number" style={{ color: liveMode === 'worker' ? '#3b82f6' : '#ef4444' }}>
                       {matchedLiveItem.EstimateTime <= 30 ? '進站中' : Math.ceil(matchedLiveItem.EstimateTime / 60)}
                     </span>
-                    <span className="countdown-unit" style={{ color: '#ef4444' }}>
-                      {matchedLiveItem.EstimateTime <= 30 ? '列車靠站' : '分後抵達 (實測)'}
+                    <span className="countdown-unit" style={{ color: liveMode === 'worker' ? '#3b82f6' : '#ef4444' }}>
+                      {matchedLiveItem.EstimateTime <= 30
+                        ? '列車靠站'
+                        : liveMode === 'worker'
+                        ? '分後抵達 (Worker 實測)'
+                        : '分後抵達 (訪客直連實測)'}
                     </span>
                   </div>
                 ) : (
                   <div className="card-countdown">
                     <span className="countdown-number">{train.minutesAway}</span>
                     <span className="countdown-unit">
-                      {station.line === 'BR' ? '分後 (班距推估)' : '分後發車'}
+                      {station.line === 'BR' ? '分後 (班距推估)' : '分後發車 (時刻表推算)'}
                     </span>
                   </div>
                 )}
 
                 <div className="card-footer">
                   <div className="dep-time-box">
-                    <Clock size={14} />
-                    <span>預計出發：<strong>{train.time}</strong></span>
+                    <Clock size={14} color={idx === 0 && matchedLiveItem ? (liveMode === 'worker' ? '#3b82f6' : '#ef4444') : undefined} />
+                    {idx === 0 && matchedLiveItem ? (
+                      <span>
+                        即時到站預估：
+                        <strong style={{ color: liveMode === 'worker' ? '#3b82f6' : '#ef4444' }}>
+                          {formatTimeHM(new Date(currentTime.getTime() + matchedLiveItem.EstimateTime * 1000))}
+                        </strong>{' '}
+                        ({liveMode === 'worker' ? '⚡ Worker 連線' : '🔴 訪客直連'})
+                      </span>
+                    ) : (
+                      <span>
+                        表定出發時間：<strong>{train.time}</strong> (時刻表時間)
+                      </span>
+                    )}
                   </div>
                   <div className="card-click-hint">
                     <span>沿線站點</span>

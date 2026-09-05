@@ -132,7 +132,7 @@ export default {
 
       try {
         const token = await getTDXToken(env);
-        const tdxEndpoint = `https://tdx.transportdata.tw/api/basic/v2/Metro/LiveBoard/TRTC?$filter=StationID eq '${encodeURIComponent(
+        const tdxEndpoint = `https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/LiveBoard/TRTC?$filter=StationID eq '${encodeURIComponent(
           stationId.toUpperCase()
         )}'&$format=JSON`;
 
