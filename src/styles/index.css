@@ -230,9 +230,9 @@
   display: flex;
   align-items: center;
   gap: 0.35rem;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 800;
-  color: var(--text-muted);
+  color: var(--text-main);
   white-space: nowrap;
 }
 
@@ -251,16 +251,26 @@
   border: 1px solid var(--border-main);
   border-radius: var(--radius-sharp);
   white-space: nowrap;
+  color: var(--text-main);
+  transition: all 0.15s ease;
+}
+
+.fav-chip:hover {
+  background: var(--bg-subtle);
+  border-color: var(--border-strong);
+  color: var(--text-main);
 }
 
 .fav-chip.active {
   border-color: var(--text-main);
   background: var(--bg-active-row);
+  color: var(--text-main);
 }
 
 .fav-name {
   font-size: 0.85rem;
   font-weight: 700;
+  color: var(--text-main);
 }
 
 .lines-filter-row {

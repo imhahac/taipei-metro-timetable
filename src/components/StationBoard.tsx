@@ -38,19 +38,36 @@ export const StationBoard: React.FC<StationBoardProps> = ({
   const [isRefreshing, setIsRefreshing] = useState<boolean>(false);
   const liveMode = getLiveBoardMode();
   const [guestQuota, setGuestQuota] = useState<number | null>(getGuestRemainingQuota());
+  const [quotaToast, setQuotaToast] = useState<string | null>(null);
 
   const handleManualRefresh = async () => {
+    if (liveMode === 'guest' && guestQuota === 0) {
+      setQuotaToast('今日 TDX 訪客直連額度 (20次/日) 已全數用罄，目前維持離線班表推算。明日 08:00 重置，或配置 Worker 享無限制更新！');
+      setTimeout(() => setQuotaToast(null), 5000);
+      return;
+    }
+
     setIsRefreshing(true);
+    setQuotaToast(null);
     try {
       const items = await fetchLiveBoard(station.code, true);
-      setGuestQuota(getGuestRemainingQuota());
+      const updatedQuota = getGuestRemainingQuota();
+      setGuestQuota(updatedQuota);
+
       if (items && items.length > 0) {
         setLiveArrivals(items);
         setIsLiveActive(true);
+        setQuotaToast('已成功同步實體即時動態！');
       } else {
         setLiveArrivals(null);
         setIsLiveActive(false);
+        if (liveMode === 'guest' && updatedQuota === 0) {
+          setQuotaToast('今日 TDX 訪客直連額度 (20次/日) 已達上限 (HTTP 429)，自動降級為離線班表。');
+        } else {
+          setQuotaToast('已完成查詢（目前維持離線時刻表推算）');
+        }
       }
+      setTimeout(() => setQuotaToast(null), 5000);
     } finally {
       setIsRefreshing(false);
     }
@@ -209,10 +226,21 @@ export const StationBoard: React.FC<StationBoardProps> = ({
               </span>
             </div>
           ) : (
-            <div className="status-pill">
-              <span className="status-indicator"></span>
-              <span className="status-pill-text">
-                {liveMode === 'guest' && guestQuota !== null
+            <div
+              className="status-pill"
+              style={liveMode === 'guest' && guestQuota === 0 ? { borderColor: '#f59e0b', background: 'rgba(245, 158, 11, 0.1)' } : undefined}
+            >
+              <span
+                className="status-indicator"
+                style={liveMode === 'guest' && guestQuota === 0 ? { backgroundColor: '#f59e0b' } : undefined}
+              ></span>
+              <span
+                className="status-pill-text"
+                style={liveMode === 'guest' && guestQuota === 0 ? { color: '#f59e0b', fontWeight: 700 } : undefined}
+              >
+                {liveMode === 'guest' && guestQuota === 0
+                  ? `🟡 離線推算中 (${formatTimeHM(currentTime)}) · 訪客額度已用罄 (20次/日)`
+                  : liveMode === 'guest' && guestQuota !== null
                   ? `🟢 離線推算中 (${formatTimeHM(currentTime)}) · 訪客額度剩 ${guestQuota} 次`
                   : `🟢 離線推算中 (${formatTimeHM(currentTime)}) · 基準 115.8.30 版`}
               </span>
@@ -220,6 +248,28 @@ export const StationBoard: React.FC<StationBoardProps> = ({
           )}
         </div>
       </div>
+
+      {/* Quota Toast Alert */}
+      {quotaToast && (
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            padding: '0.5rem 0.85rem',
+            marginTop: '0.65rem',
+            borderRadius: '8px',
+            fontSize: '0.82rem',
+            background: guestQuota === 0 ? 'rgba(245, 158, 11, 0.15)' : 'rgba(16, 185, 129, 0.15)',
+            border: `1px solid ${guestQuota === 0 ? '#f59e0b' : '#10b981'}`,
+            color: guestQuota === 0 ? '#f59e0b' : '#10b981',
+            fontWeight: 600,
+          }}
+        >
+          <AlertCircle size={15} color={guestQuota === 0 ? '#f59e0b' : '#10b981'} style={{ flexShrink: 0 }} />
+          <span>{quotaToast}</span>
+        </div>
+      )}
 
       {/* Direction Switch Tabs */}
       {timetables.length > 1 && (

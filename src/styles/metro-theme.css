@@ -44,15 +44,15 @@
   --bg-subtle: #21262d;
   --bg-header: #090c10;
   --bg-header-text: #f0f6fc;
-  --bg-active-row: #1f2937;
+  --bg-active-row: #242c38;
   
   --border-main: #30363d;
   --border-strong: #484f58;
   --border-dark: #8b949e;
   
   --text-main: #f0f6fc;
-  --text-muted: #8b949e;
-  --text-subtle: #6e7681;
+  --text-muted: #adbac7;
+  --text-subtle: #909dab;
   
   --line-bl: #1f8ad2;
   --line-g: #0fa36d;
@@ -90,6 +90,7 @@ button {
   cursor: pointer;
   border: none;
   background: none;
+  color: inherit;
 }
 
 input {
