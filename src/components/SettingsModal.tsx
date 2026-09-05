@@ -62,17 +62,15 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
         return;
       }
 
-      // 2. 深入檢驗實體列車即時到站端點 /api/live?stationId=G18
-      const liveRes = await fetch(`${base}/api/live?stationId=G18`, { signal: AbortSignal.timeout(5000) });
+      // 2. 深入檢驗實體列車即時端點 /api/live (全網聚合)
+      const liveRes = await fetch(`${base}/api/live`, { signal: AbortSignal.timeout(6000) });
       if (liveRes.ok) {
-        const liveData = await liveRes.json();
-        const count = Array.isArray(liveData) ? liveData.length : 0;
-        const first = Array.isArray(liveData) && liveData.length > 0 ? liveData[0] : null;
+        const allData = await liveRes.json();
+        const totalCount = Array.isArray(allData) ? allData.length : 0;
+        const g18Trains = Array.isArray(allData) ? allData.filter((t: any) => t.StationID === 'G18') : [];
         setWorkerTestResult({
           success: true,
-          message: `驗證成功！Worker 連線正常且成功取得 TDX 實體動態 (G18 南京三民回傳 ${count} 班列車${
-            first ? `，下班車預估 ${first.EstimateTime} 秒後到站` : ''
-          })`,
+          message: `驗證成功！Worker 與 TDX 連線正常，全網當前捕捉到 ${totalCount} 班進站/停靠列車 (南京三民 G18 當前月台停靠: ${g18Trains.length} 班)`,
         });
       } else {
         const errText = await liveRes.text();

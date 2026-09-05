@@ -112,11 +112,9 @@ npm run deploy
    ```
 
 2. **驗證即時到站查詢**：
-   查詢南京三民站 (G18)：
-   ```
-   https://metro-tdx-proxy.your-name.workers.dev/api/live?stationId=G18
-   ```
-   預期回傳包含實體列車即時到站秒數（`EstimateTime`）之 JSON 陣列。
+   - **全網列車查詢**：訪問 `https://metro-tdx-proxy.your-name.workers.dev/api/live`，預期回傳全路網當前所有進站/停靠月台之列車清單（約 20~40 筆）。
+   - **單站查詢 (如 G18 南京三民)**：訪問 `https://metro-tdx-proxy.your-name.workers.dev/api/live?stationId=G18`。
+     > ⚠️ **北捷開放資料特性說明**：臺北捷運公司提供的 `LiveBoard` 資料定義為「列車進站停靠通知（`EstimateTime: 0`）」，並無區間行駛預估秒數。當月台當下無列車停靠時，回傳 `[]`（空陣列）為正常物理現象；系統會自動無縫切換以官方時刻表精準推算發車時間。
 
 3. **前端自動注入**：
-   當 GitHub Actions 執行前端網站部署時，會自動帶入 `VITE_TDX_WORKER_URL`，網站打開即可看見「🔴 即時到站動態」。使用者亦可在網頁右上方「系統設定」彈窗中自由檢視或自訂 Worker 網址。
+   當 GitHub Actions 執行前端網站部署時，會自動帶入 `VITE_TDX_WORKER_URL`，網站打開即可看見「⚡ Worker 即時動態」。使用者亦可在網頁右上方「系統設定」彈窗中自由檢視或自訂 Worker 網址。

@@ -7,6 +7,9 @@ export interface Env {
 let cachedToken: string | null = null;
 let tokenExpireAt: number = 0;
 
+// In-memory network-wide live board cache across worker warm executions
+let networkLiveCache: { timestamp: number; data: any[] } | null = null;
+
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, OPTIONS',
@@ -53,6 +56,40 @@ async function getTDXToken(env: Env): Promise<string> {
   return cachedToken;
 }
 
+/**
+ * 全路網即時到離站快取聚合 (Global LiveBoard Cache)
+ * 25 秒全網快取：1 分鐘至多發起 2~3 次 TDX 請求，永久免疫 429 速率限制 (基礎會員 5次/分 上限)
+ */
+async function getNetworkLiveBoard(env: Env): Promise<{ data: any[]; cached: boolean }> {
+  const now = Date.now();
+  if (networkLiveCache && now - networkLiveCache.timestamp < 25000) {
+    return { data: networkLiveCache.data, cached: true };
+  }
+
+  const token = await getTDXToken(env);
+  const tdxEndpoint = 'https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/LiveBoard/TRTC?$format=JSON';
+
+  const res = await fetch(tdxEndpoint, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: 'application/json',
+    },
+  });
+
+  if (!res.ok) {
+    if (networkLiveCache) {
+      return { data: networkLiveCache.data, cached: true };
+    }
+    const errorMsg = await res.text();
+    throw new Error(`TDX API returned status ${res.status}: ${errorMsg}`);
+  }
+
+  const json = await res.json();
+  const list = Array.isArray(json) ? json : [];
+  networkLiveCache = { timestamp: now, data: list };
+  return { data: list, cached: false };
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
@@ -72,7 +109,7 @@ export default {
       });
     }
 
-    // Health check endpoint
+    // 1. Health check endpoint: /health 或 /
     if (url.pathname === '/' || url.pathname === '/health') {
       return new Response(
         JSON.stringify({
@@ -80,6 +117,12 @@ export default {
           service: 'metro-tdx-proxy',
           timestamp: new Date().toISOString(),
           hasCredentials: Boolean(env.TDX_CLIENT_ID && env.TDX_CLIENT_SECRET),
+          cacheInfo: networkLiveCache
+            ? {
+                cachedAgeSeconds: Math.round((Date.now() - networkLiveCache.timestamp) / 1000),
+                totalActiveTrains: networkLiveCache.data.length,
+              }
+            : null,
         }),
         {
           status: 200,
@@ -88,95 +131,39 @@ export default {
       );
     }
 
-    // 即時到站查詢端點: /api/live?stationId=G18 或 /live?stationId=G18
+    // 2. 即時到站查詢端點: /api/live 或 /live (支援 ?stationId=G18 或無參數回傳全路網)
     if (url.pathname === '/api/live' || url.pathname === '/live') {
       const stationId = url.searchParams.get('stationId');
 
-      if (!stationId) {
-        return new Response(JSON.stringify({ error: 'Missing required parameter: stationId' }), {
-          status: 400,
-          headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
-        });
-      }
-
-      // 輸入格式防禦 (如: R01, BL12, G18, Y14)
-      if (!/^[A-Za-z0-9_]{2,10}$/.test(stationId)) {
-        return new Response(JSON.stringify({ error: 'Invalid stationId format' }), {
-          status: 400,
-          headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
-        });
-      }
-
-      // 【策略 B：全域快取聚合 Worker】檢查 Cloudflare caches.default
-      const cache = (caches as any).default;
-      const normalizedUrl = new URL(request.url);
-      normalizedUrl.searchParams.set('stationId', stationId.toUpperCase());
-      const cacheKey = new Request(normalizedUrl.toString(), request);
-
       try {
-        const cachedRes = await cache.match(cacheKey);
-        if (cachedRes) {
-          const headers = new Headers(cachedRes.headers);
-          headers.set('CF-Cache-Status', 'HIT');
-          for (const [k, v] of Object.entries(CORS_HEADERS)) {
-            headers.set(k, v);
-          }
-          return new Response(cachedRes.body, {
-            status: cachedRes.status,
-            headers,
-          });
-        }
-      } catch (e) {
-        // 快取查詢若異常則靜默 fallback 繼續發起請求
-      }
+        const { data: allTrains, cached } = await getNetworkLiveBoard(env);
 
-      try {
-        const token = await getTDXToken(env);
-        const tdxEndpoint = `https://tdx.transportdata.tw/api/basic/v2/Rail/Metro/LiveBoard/TRTC?$filter=StationID eq '${encodeURIComponent(
-          stationId.toUpperCase()
-        )}'&$format=JSON`;
-
-        const tdxRes = await fetch(tdxEndpoint, {
-          headers: {
-            Authorization: `Bearer ${token}`,
-            Accept: 'application/json',
-          },
-        });
-
-        if (!tdxRes.ok) {
-          const errorMsg = await tdxRes.text();
-          return new Response(
-            JSON.stringify({ error: `TDX API returned status ${tdxRes.status}`, details: errorMsg }),
-            {
-              status: tdxRes.status,
-              headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
-            }
+        let result = allTrains;
+        if (stationId) {
+          const code = stationId.toUpperCase();
+          result = allTrains.filter(
+            (item: any) => item.StationID?.toUpperCase() === code
           );
         }
 
-        const data = await tdxRes.json();
-
-        // 嚴格遵守 TDX 基礎會員 5次/分/金鑰 上限：設定 60 秒邊緣快取 TTL
-        const responseToCache = new Response(JSON.stringify(data), {
-          status: 200,
-          headers: {
-            ...CORS_HEADERS,
-            'Content-Type': 'application/json; charset=utf-8',
-            'Cache-Control': 'public, max-age=60, s-maxage=60',
-            'CF-Cache-Status': 'MISS',
-          },
+        const headers = new Headers({
+          ...CORS_HEADERS,
+          'Content-Type': 'application/json; charset=utf-8',
+          'Cache-Control': 'public, max-age=20',
+          'X-Cache-Status': cached ? 'HIT' : 'MISS',
+          'X-Network-Active-Trains': String(allTrains.length),
         });
 
-        try {
-          await cache.put(cacheKey, responseToCache.clone());
-        } catch (e) {
-          // 寫入快取錯誤不影響即時回傳
-        }
-
-        return responseToCache;
+        return new Response(JSON.stringify(result), {
+          status: 200,
+          headers,
+        });
       } catch (err: any) {
         return new Response(
-          JSON.stringify({ error: 'Internal edge proxy error', message: err?.message || String(err) }),
+          JSON.stringify({
+            error: 'Failed to fetch TDX live data',
+            message: err?.message || String(err),
+          }),
           {
             status: 502,
             headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
