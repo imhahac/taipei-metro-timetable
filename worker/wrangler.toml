@@ -1,6 +1,6 @@
-name: "metro-tdx-proxy"
-main: "src/index.ts"
-compatibility_date: "2024-09-01"
+name = "metro-tdx-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-09-01"
 
 # Variables & Secrets to configure via Cloudflare Dashboard or GitHub Secrets:
 # TDX_CLIENT_ID
