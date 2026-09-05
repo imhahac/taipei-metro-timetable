@@ -1,0 +1,3782 @@
+{
+  "StationName": "先嗇宮",
+  "StationCode": "O16",
+  "Timetables": [
+    {
+      "Direction": "往O21迴龍站",
+      "DirectionCode": 0,
+      "DestinationNotice": null,
+      "EffectiveFrom": "2026-08-30",
+      "Schedule": [
+        {
+          "Days": "1,2,3,4,5",
+          "Departures": [
+            {
+              "Time": "06:04",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:15",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:24",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:42",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:52",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:02",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:12",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:28",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:36",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:46",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:52",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:03",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:09",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:15",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:27",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:47",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:52",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:03",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:08",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:13",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:19",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:23",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:45",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:51",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:04",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:12",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:22",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:30",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:38",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:47",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:56",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:22",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:31",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:40",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:50",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:00",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:09",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:19",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:38",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:07",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:17",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:27",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:36",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:46",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:56",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:15",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:25",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:34",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:44",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:54",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:03",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:13",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:23",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:32",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:42",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:52",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:01",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:11",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:30",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:40",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:50",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:59",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:08",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:27",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:40",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:46",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:52",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:59",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:11",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:18",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:24",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:37",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:43",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:55",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:01",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:08",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:27",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:34",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:40",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:46",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:53",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:00",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:12",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:38",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:47",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:55",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:04",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:13",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:30",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:47",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:56",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:22",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:31",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:04",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:25",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:45",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:09",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:43",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "6",
+          "Departures": [
+            {
+              "Time": "06:04",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:24",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:41",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:51",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:01",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:10",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:20",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:07",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:17",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:26",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:36",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:46",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:55",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:24",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:43",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:53",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:02",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:12",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:31",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:41",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:50",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:00",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:09",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:19",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:28",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:38",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:07",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:16",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:26",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:35",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:45",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:55",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:04",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:23",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:42",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:52",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:01",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:11",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:30",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:40",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:49",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:59",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:08",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:28",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:37",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:47",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:56",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:06",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:15",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:25",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:35",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:44",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:03",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:13",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:22",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:32",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:42",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:51",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:01",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:10",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:20",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:08",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:17",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:27",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:36",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:46",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:55",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:15",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:24",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:34",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:43",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:53",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:02",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:12",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:22",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:32",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:41",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:51",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:19",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:07",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:17",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:45",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:09",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:43",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "7",
+          "Departures": [
+            {
+              "Time": "06:04",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:24",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:41",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:51",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:01",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:10",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:20",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:07",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:17",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:26",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:36",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:46",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:55",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:24",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:43",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:53",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:02",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:12",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:31",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:41",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:50",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:00",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:09",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:19",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:28",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:38",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:07",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:16",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:26",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:35",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:45",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:55",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:04",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:14",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:23",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:42",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:52",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:01",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:11",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:30",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:40",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:49",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:59",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:08",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:28",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:37",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:47",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:56",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:06",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:15",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:25",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:35",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:44",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:03",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:13",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:22",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:32",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:42",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:51",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:01",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:10",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:20",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:08",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:17",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:27",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:36",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:46",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:55",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:05",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:15",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:24",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:34",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:43",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:53",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:02",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:12",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:22",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:32",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:41",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:51",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:19",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:29",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:39",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:48",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:58",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:07",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:17",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:45",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:09",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:21",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:33",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:43",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:57",
+              "Dst": "迴龍",
+              "IsShuttle": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Direction": "往O01南勢角站",
+      "DirectionCode": 1,
+      "DestinationNotice": null,
+      "EffectiveFrom": "2026-08-30",
+      "Schedule": [
+        {
+          "Days": "1,2,3,4,5",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:21",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:29",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:37",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:45",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:53",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:05",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:18",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:24",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:30",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:36",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:42",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:52",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:57",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:02",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:17",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:27",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:33",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:39",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:45",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:51",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:57",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:04",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:21",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:30",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:39",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:56",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:05",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:15",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:24",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:34",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:53",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:32",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:42",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:51",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:01",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:11",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:20",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:30",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:40",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:49",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:09",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:28",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:38",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:57",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:16",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:26",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:36",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:45",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:55",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:05",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:14",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:24",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:34",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:43",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:53",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:06",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:19",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:25",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:31",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:38",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:50",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:57",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:09",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:16",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:28",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:35",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:41",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:06",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:19",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:25",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:32",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:38",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:51",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:57",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:21",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:39",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:05",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:31",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:39",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:48",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:57",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:05",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:14",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:23",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:31",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:40",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:49",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:58",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:08",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:17",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:27",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:36",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:40",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:11",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:23",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:35",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:20",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "6",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:21",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:29",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:37",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:56",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:06",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:15",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:25",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:34",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:54",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:32",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:41",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:15",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:25",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:35",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:54",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:32",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:42",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:51",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:01",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:10",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:20",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:29",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:39",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:49",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:58",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:08",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:17",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:27",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:36",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:46",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:56",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:05",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:15",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:24",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:34",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:43",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:53",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:31",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:41",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:50",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:09",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:19",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:29",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:38",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:57",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:16",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:26",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:36",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:45",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:55",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:04",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:14",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:23",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:43",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:52",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:02",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:11",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:21",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:40",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:09",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:18",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:28",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:37",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:06",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:16",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:25",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:35",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:54",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:23",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:32",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:42",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:51",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:01",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:20",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:30",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:39",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:11",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:23",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:35",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:20",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "7",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:21",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:29",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:37",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:56",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:06",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:15",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:25",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:34",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:54",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:32",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:41",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:15",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:25",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:35",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:54",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:32",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:42",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:51",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:01",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:10",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:20",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:29",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:39",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:49",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:58",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:08",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:17",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:27",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:36",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:46",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:56",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:05",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:15",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:24",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:34",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:43",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:53",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:22",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:31",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:41",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:50",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:09",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:19",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:29",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:38",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:57",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:07",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:16",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:26",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:36",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:45",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:55",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:04",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:14",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:23",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:43",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:52",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:02",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:11",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:21",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:40",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:09",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:18",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:28",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:37",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:06",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:16",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:25",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:35",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:44",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:54",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:03",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:13",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:23",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:32",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:42",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:51",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:01",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:20",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:30",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:39",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:00",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:11",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:23",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:35",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:59",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:12",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:20",
+              "Dst": "南勢角",
+              "IsShuttle": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

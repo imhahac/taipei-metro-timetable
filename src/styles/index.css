@@ -1,0 +1,1287 @@
+@import './metro-theme.css';
+
+/* 主架構容器 */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem 1rem;
+}
+
+/* 頂部導航列 (Navbar) */
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-surface);
+  border-bottom: 1.5px solid var(--border-strong);
+}
+
+.navbar-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0.65rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.brand-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sharp);
+  background: #1e293b;
+  border: 1px solid var(--border-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--text-main);
+}
+
+.brand-sub {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--text-subtle);
+  letter-spacing: 0.5px;
+}
+
+/* 搜尋框 (Search Bar) */
+.search-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 380px;
+}
+
+.search-input-box {
+  display: flex;
+  align-items: center;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  padding: 0.45rem 0.75rem;
+}
+
+.search-input-box:focus-within {
+  border-color: var(--text-main);
+  background: var(--bg-surface);
+}
+
+.search-icon {
+  color: var(--text-muted);
+  margin-right: 0.5rem;
+}
+
+.search-input-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  max-height: 360px;
+  overflow-y: auto;
+  z-index: 150;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.85rem;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-main);
+}
+
+.search-item:last-child {
+  border-bottom: none;
+}
+
+.search-item:hover {
+  background: var(--bg-active-row);
+}
+
+.search-item-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* 導航功能按鈕組 */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.live-clock {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-sharp);
+}
+
+.day-selector-group,
+.view-toggle-group {
+  display: flex;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  padding: 2px;
+  gap: 2px;
+}
+
+.day-btn,
+.view-btn {
+  padding: 0.35rem 0.65rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  border-radius: var(--radius-sharp);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.day-btn:hover,
+.view-btn:hover {
+  color: var(--text-main);
+}
+
+.day-btn.active,
+.view-btn.active {
+  background: var(--bg-surface);
+  color: var(--text-main);
+  border: 1px solid var(--border-main);
+}
+
+.theme-toggle-btn,
+.settings-icon-btn {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  color: var(--text-main);
+}
+
+.theme-toggle-btn:hover,
+.settings-icon-btn:hover {
+  background: var(--bg-surface);
+}
+
+/* 快捷篩選列 (QuickBar) */
+.quickbar-container {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.favorites-scroll-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.fav-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.fav-list {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.fav-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.6rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-sharp);
+  white-space: nowrap;
+}
+
+.fav-chip.active {
+  border-color: var(--text-main);
+  background: var(--bg-active-row);
+}
+
+.fav-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.lines-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.line-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border: 1.5px solid;
+  border-radius: var(--radius-sharp);
+  font-size: 0.85rem;
+  font-weight: 800;
+  white-space: nowrap;
+  background: var(--bg-surface);
+}
+
+.line-pill-code {
+  font-family: var(--font-mono);
+}
+
+.line-stations-carousel {
+  padding: 0.65rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-sharp);
+}
+
+.carousel-inner {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.station-carousel-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.65rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-sharp);
+  color: var(--text-main);
+  white-space: nowrap;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.station-carousel-btn.active {
+  background: var(--bg-active-row);
+  border-color: var(--text-main);
+  font-weight: 800;
+}
+
+/* 車站時刻面板 (Station Board) */
+.station-board-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.station-hero {
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.station-hero-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.code-and-fav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.badge-large {
+  font-size: 1.2rem;
+  padding: 3px 10px;
+  font-family: var(--font-mono);
+}
+
+.fav-toggle-btn {
+  padding: 3px;
+}
+
+.station-title {
+  font-size: 1.85rem;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.station-subtitle {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-family: var(--font-mono);
+}
+
+.status-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  background: var(--live-bg);
+  color: var(--live-color);
+  border: 1px solid var(--live-color);
+  border-radius: var(--radius-sharp);
+}
+
+/* 方向切換 (Direction Switch Tabs) */
+.direction-tabs {
+  display: flex;
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  background: var(--bg-subtle);
+  overflow-x: auto;
+}
+
+.dir-tab-btn {
+  flex: 1;
+  min-width: 220px;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-weight: 800;
+  font-size: 0.95rem;
+  border-right: 1px solid var(--border-main);
+  background: transparent;
+}
+
+.dir-tab-btn:last-child {
+  border-right: none;
+}
+
+.dir-tab-btn.active {
+  background: var(--bg-surface);
+  color: var(--text-main);
+  border-bottom: 3px solid #111827;
+}
+
+[data-theme="dark"] .dir-tab-btn.active {
+  border-bottom: 3px solid #f3f4f6;
+}
+
+/* 即時發車看板 (PIDS Board) */
+.live-arrivals-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.section-title-group h2 {
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.day-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-main);
+  padding: 2px 8px;
+  border-radius: var(--radius-sharp);
+}
+
+.arrival-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.75rem;
+}
+
+.arrival-card {
+  padding: 1rem 1.25rem;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.card-first {
+  border-width: 2px;
+  border-color: var(--text-main);
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-main);
+  padding-bottom: 0.4rem;
+}
+
+.train-order {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.badge-dst-group {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.train-dst {
+  font-size: 1.15rem;
+  font-weight: 900;
+}
+
+.shuttle-tag {
+  background: var(--shuttle-bg);
+  color: var(--shuttle-color);
+  border: 1px solid var(--shuttle-color);
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 1px 5px;
+  border-radius: var(--radius-sharp);
+}
+
+.card-countdown {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  margin: 0.2rem 0;
+}
+
+.countdown-number {
+  font-size: 2.8rem;
+  font-weight: 900;
+  font-family: var(--font-mono);
+  line-height: 1;
+}
+
+.countdown-unit {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--border-main);
+  padding-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.dep-time-box {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
+
+.arriving-blink {
+  background: var(--live-bg);
+  color: var(--live-color);
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: var(--radius-sharp);
+}
+
+.no-trains-card {
+  padding: 1.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  grid-column: 1 / -1;
+}
+
+/* 底線備註警示 (Shuttle Banner) */
+.shuttle-banner {
+  padding: 0.65rem 1rem;
+  background: var(--shuttle-bg);
+  color: var(--shuttle-color);
+  border: 1.5px solid var(--shuttle-color);
+  border-radius: var(--radius-sharp);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+/* 全日 24H 鐵路印刷時刻矩陣 (Full Day Grid Table) */
+.matrix-section {
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.matrix-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1.5px solid var(--border-strong);
+}
+
+.matrix-title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.matrix-title-group h2 {
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.matrix-filters {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.filter-pill {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: var(--radius-sharp);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-main);
+  color: var(--text-muted);
+}
+
+.filter-pill.active {
+  background: var(--text-main);
+  color: var(--bg-surface);
+  border-color: var(--text-main);
+}
+
+/* 實體方格表格 (Real Tabular Grid) */
+.matrix-grid {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-strong);
+}
+
+.matrix-row {
+  display: flex;
+  border-bottom: 1px solid var(--border-main);
+  background: var(--bg-surface);
+}
+
+.matrix-row:last-child {
+  border-bottom: none;
+}
+
+.matrix-row:hover {
+  background: var(--bg-subtle);
+}
+
+.row-current-hour {
+  background: var(--bg-active-row) !important;
+}
+
+.hour-col {
+  width: 58px;
+  min-width: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-weight: 900;
+  font-family: var(--font-mono);
+  background: var(--bg-subtle);
+  border-right: 1.5px solid var(--border-strong);
+  color: var(--text-main);
+}
+
+.hour-num {
+  font-size: 1.1rem;
+}
+
+.hour-unit {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.minutes-col {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  padding: 0.4rem 0.65rem;
+}
+
+.minute-chip {
+  min-width: 32px;
+  height: 28px;
+  padding: 0 4px;
+  border-radius: var(--radius-sharp);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-main);
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.chip-shuttle {
+  background: var(--shuttle-bg);
+  border-color: var(--shuttle-color);
+  color: var(--shuttle-color);
+}
+
+/* 實體印刷底線 (Official printed underline for shuttle trains) */
+.minute-text.underlined {
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--shuttle-underline);
+}
+
+.empty-hour {
+  font-size: 0.8rem;
+  color: var(--text-subtle);
+  font-style: italic;
+}
+
+/* 互動路網圖 (Metro Map View) */
+.metro-map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 78vh;
+  min-height: 600px;
+  overflow: hidden;
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  background: var(--bg-surface);
+}
+
+.map-toolbar {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.35rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+}
+
+.map-tool-btn {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+  border-radius: var(--radius-sharp);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-main);
+}
+
+.map-tool-btn:hover {
+  background: var(--bg-active-row);
+}
+
+.map-selected-pill {
+  position: absolute;
+  top: 0.85rem;
+  left: 0.85rem;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-strong);
+}
+
+.metro-map-canvas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-transform-layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-transform-layer svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* 彈出視窗 (Modal) */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-content {
+  max-width: 560px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--bg-surface);
+  border: 2px solid var(--border-dark);
+  border-radius: var(--radius-sharp);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid var(--border-strong);
+  padding-bottom: 0.65rem;
+}
+
+.modal-title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modal-title-group h2 {
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.modal-close-btn {
+  color: var(--text-muted);
+}
+.modal-close-btn:hover {
+  color: var(--text-main);
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.settings-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-sharp);
+}
+
+.settings-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.settings-card-title h3 {
+  font-size: 0.98rem;
+  font-weight: 800;
+}
+
+.settings-card-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form-group label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.form-group input {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  padding: 0.5rem 0.75rem;
+  color: var(--text-main);
+  font-size: 0.88rem;
+}
+
+.form-group input:focus {
+  border-color: var(--text-main);
+  outline: none;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.test-action-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  margin-top: 0.4rem;
+}
+
+.test-result-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-sharp);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.badge-success {
+  background: var(--live-bg);
+  color: var(--live-color);
+  border: 1px solid var(--live-color);
+}
+
+.badge-error {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #b91c1c;
+}
+
+.form-row-inline {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.form-row-inline input {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  padding: 0.45rem 0.65rem;
+  color: var(--text-main);
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.65rem;
+  padding-top: 0.65rem;
+  border-top: 1.5px solid var(--border-strong);
+}
+
+.btn-primary {
+  background: var(--text-main);
+  color: var(--bg-surface);
+  font-weight: 800;
+  padding: 0.55rem 1.15rem;
+  border-radius: var(--radius-sharp);
+}
+
+.btn-secondary {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-strong);
+  color: var(--text-main);
+  font-weight: 700;
+  padding: 0.55rem 1.15rem;
+  border-radius: var(--radius-sharp);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* 車次清單模式 (Tokyo Metro Style List View) */
+.departures-list-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-surface);
+}
+
+.departure-list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--border-main);
+  cursor: pointer;
+  transition: background 0.1s ease;
+}
+
+.departure-list-row:last-child {
+  border-bottom: none;
+}
+
+.departure-list-row:hover {
+  background: var(--bg-active-row);
+}
+
+.list-row-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list-dep-time {
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 800;
+  width: 58px;
+}
+
+.list-train-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.list-type-text {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.list-dst-text {
+  font-size: 0.95rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.list-row-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* 東京地鐵風格 列車各站停靠時刻表彈窗 (Tokyo Metro Train Stop Modal) */
+.train-stop-modal {
+  max-width: 540px;
+  width: 100%;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-surface);
+  border: 2px solid var(--border-dark);
+  border-radius: var(--radius-sharp);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+
+.train-stop-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1.5px solid var(--border-strong);
+  background: var(--bg-subtle);
+}
+
+.train-meta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.train-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
+.train-destination-title {
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+.train-current-origin {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.train-stop-legend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 1.25rem;
+  background: var(--bg-subtle);
+  border-bottom: 1px solid var(--border-main);
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
+.train-timeline-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.75rem 1.25rem;
+}
+
+.timeline-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-track-bar {
+  position: absolute;
+  top: 18px;
+  bottom: 18px;
+  left: 17px;
+  width: 4px;
+  z-index: 1;
+}
+
+.timeline-stop-row {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.timeline-stop-row.stop-current {
+  background: var(--bg-active-row);
+  border-radius: var(--radius-sharp);
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  margin-left: -0.4rem;
+  margin-right: -0.4rem;
+}
+
+.timeline-stop-row.stop-passed {
+  opacity: 0.55;
+}
+
+.stop-node-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.stop-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 3px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-weight: 900;
+  font-size: 0.72rem;
+  flex-shrink: 0;
+}
+
+.stop-name-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.stop-name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.stop-name {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.current-badge {
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 1px 5px;
+  background: var(--live-color);
+  color: #fff;
+  border-radius: var(--radius-sharp);
+}
+
+.terminal-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 4px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sharp);
+  color: var(--text-muted);
+}
+
+.stop-transfers {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.badge-mini {
+  font-size: 0.68rem;
+  padding: 1px 4px;
+}
+
+.stop-time-cell {
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.train-stop-footer {
+  padding: 0.65rem 1.25rem;
+  background: var(--bg-subtle);
+  border-top: 1px solid var(--border-main);
+}
+
+.footer-notice {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* 響應式微調 */
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+  .navbar-inner {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .search-wrapper {
+    order: 3;
+    max-width: 100%;
+    width: 100%;
+  }
+  .station-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .arrival-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,5477 @@
+{
+  "StationName": "南京三民",
+  "StationCode": "G18",
+  "Timetables": [
+    {
+      "Direction": "往G19松山站",
+      "DirectionCode": 0,
+      "DestinationNotice": null,
+      "EffectiveFrom": "2026-08-30",
+      "Schedule": [
+        {
+          "Days": "1,2,3,4,5",
+          "Departures": [
+            {
+              "Time": "06:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:10",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:22",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:28",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:37",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:40",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:46",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:58",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:03",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:07",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:11",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:19",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:22",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:28",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:31",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:34",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:44",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:08",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:11",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:14",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:17",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:20",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:26",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:29",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:44",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:53",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:56",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:22",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:28",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:37",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:52",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:10",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:31",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:45",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:52",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:07",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:14",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:21",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:28",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:43",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:50",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:57",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:04",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:11",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:19",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:26",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:33",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:40",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:31",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:45",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:52",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:07",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:14",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:21",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:28",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:43",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:50",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:57",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:04",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:11",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:19",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:26",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:33",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:40",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:31",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:45",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:52",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:10",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:20",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:27",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:34",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:44",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:58",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:19",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:26",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:34",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:45",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:58",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:03",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:08",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:19",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:27",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:44",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:07",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:19",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:31",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:37",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:52",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:57",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:07",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:29",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:50",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:08",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:21",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:28",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:08",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:33",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:45",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:57",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:21",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:39",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "6",
+          "Departures": [
+            {
+              "Time": "06:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:10",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:29",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:58",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:14",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:21",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:29",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:20",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:37",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:44",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:20",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:27",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:56",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:03",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:39",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:01",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:01",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:08",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:37",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:44",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:20",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:27",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:56",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:03",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:11",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:34",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:33",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:45",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:57",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:21",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:39",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "7",
+          "Departures": [
+            {
+              "Time": "06:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:10",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:29",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:58",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:14",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:21",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:29",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:38",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:20",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:37",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:44",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:20",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:27",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:56",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:03",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:39",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:47",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:01",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:36",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:01",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:05",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:12",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:48",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:08",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:23",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:37",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:44",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:51",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:59",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:06",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:13",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:20",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:27",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:35",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:42",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:56",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:03",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:11",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:18",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:25",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:34",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:41",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:55",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:02",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:15",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:24",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:33",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:45",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:57",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:09",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:21",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:32",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:39",
+              "Dst": "松山",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:54",
+              "Dst": "松山",
+              "IsShuttle": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Direction": "往G08台電大樓站、G01新店站",
+      "DirectionCode": 1,
+      "DestinationNotice": "加註底線為往台電大樓站區間車",
+      "EffectiveFrom": "2026-08-30",
+      "Schedule": [
+        {
+          "Days": "1,2,3,4,5",
+          "Departures": [
+            {
+              "Time": "06:03",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:29",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:34",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:58",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:10",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:17",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:28",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "07:31",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:34",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:40",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "07:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:46",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:52",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "07:55",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:04",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "08:07",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:10",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:16",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "08:19",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:22",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:28",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "08:31",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:34",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "08:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:46",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:49",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "08:52",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:56",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "09:02",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:05",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:08",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "09:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:15",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:24",
+              "Dst": "台電大樓",
+              "IsShuttle": true
+            },
+            {
+              "Time": "09:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:34",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:09",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:45",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:52",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:59",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:35",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:57",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:33",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:09",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:45",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:52",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:59",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:35",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:57",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:33",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:09",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:15",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:29",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:32",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:44",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:51",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:58",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:05",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:15",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:19",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:22",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:26",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:29",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:57",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:15",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:22",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:29",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:32",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:39",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:46",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:29",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:33",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:39",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:53",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:02",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:07",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:58",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:02",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:07",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:19",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:35",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:39",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:52",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:58",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:05",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:31",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:44",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:57",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:02",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:38",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:03",
+              "Dst": "新店",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "6",
+          "Departures": [
+            {
+              "Time": "06:03",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:41",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:59",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:05",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:19",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:27",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:34",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:41",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:22",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:32",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:44",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:52",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:20",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:35",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:56",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:32",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:57",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:33",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:09",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:45",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:52",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:59",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:35",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:57",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:17",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:56",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:02",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:38",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:03",
+              "Dst": "新店",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "7",
+          "Departures": [
+            {
+              "Time": "06:03",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:41",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:59",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:05",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:19",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:27",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:34",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:41",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:22",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:32",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:44",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:52",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:20",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:35",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:56",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:32",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:48",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:12",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:57",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:18",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:25",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:33",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:40",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:54",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:09",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:16",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:23",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:37",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:45",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:52",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:59",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:06",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:13",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:28",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:35",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:42",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:57",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:04",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:17",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:24",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:30",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:36",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:43",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:56",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:02",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:11",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:21",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:38",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:50",
+              "Dst": "新店",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:03",
+              "Dst": "新店",
+              "IsShuttle": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

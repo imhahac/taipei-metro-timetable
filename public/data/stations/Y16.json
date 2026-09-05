@@ -1,0 +1,4303 @@
+{
+  "StationName": "板橋",
+  "StationCode": "Y16",
+  "LineID": "Y",
+  "Timetables": [
+    {
+      "Direction": "往Y20新北產業園區站",
+      "DirectionCode": 0,
+      "DestinationNotice": null,
+      "EffectiveFrom": "2026-08-30",
+      "Schedule": [
+        {
+          "Days": "1,2,3,4,5",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:07",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:37",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:42",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:47",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:54",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:13",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:17",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:27",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:36",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:06",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:35",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:45",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:55",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:05",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:15",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:29",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:37",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:45",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:54",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:15",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:29",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:37",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:44",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:52",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:44",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:59",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:04",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:14",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:27",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:37",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:42",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:47",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:57",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:07",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:12",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:35",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:45",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:06",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:15",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:24",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:29",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:34",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:44",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:52",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:12",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:59",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:58",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "6",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:07",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:57",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:04",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:47",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:55",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:52",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:12",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:58",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "7",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:07",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:57",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:04",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:47",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:55",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:08",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:23",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:53",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:52",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:12",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:58",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Direction": "往Y07大坪林站",
+      "DirectionCode": 1,
+      "DestinationNotice": null,
+      "EffectiveFrom": "2026-08-30",
+      "Schedule": [
+        {
+          "Days": "1,2,3,4,5",
+          "Departures": [
+            {
+              "Time": "06:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:11",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:24",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:38",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:46",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:04",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:15",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:21",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:26",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:35",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:45",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:49",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:58",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:04",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:09",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:14",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:19",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:24",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:29",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:34",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:43",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:52",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:56",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:07",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:12",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:17",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:22",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:28",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:27",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:32",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:09",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:17",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:24",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:32",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:09",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:17",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:24",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:32",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:09",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:17",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:24",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:32",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:09",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:17",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:24",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:32",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:09",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:17",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:24",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:32",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:09",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:17",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:32",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:46",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:01",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:06",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:12",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:17",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:21",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:26",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:31",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:36",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:45",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:59",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:04",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:09",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:15",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:29",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:34",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:43",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:53",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:58",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:02",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:07",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:12",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:23",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:28",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:37",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:42",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:46",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:51",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:11",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:38",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:57",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:07",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:42",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:59",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:11",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "6",
+          "Departures": [
+            {
+              "Time": "06:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:11",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:23",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:31",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:58",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:08",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:19",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:29",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:29",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:38",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:46",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:34",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:41",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:29",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:38",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:57",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:07",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:42",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:59",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:11",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:23",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:35",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:46",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "7",
+          "Departures": [
+            {
+              "Time": "06:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:11",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:23",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:31",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:58",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:08",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:19",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:29",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:39",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:29",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:38",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:46",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:33",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:55",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:03",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:25",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:34",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:41",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:30",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:40",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:20",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:29",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:38",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:47",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:57",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:07",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:18",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:26",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:42",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:50",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:59",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:11",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:23",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:35",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:46",
+              "Dst": "大坪林",
+              "IsShuttle": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

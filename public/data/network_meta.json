@@ -1,0 +1,2568 @@
+{
+  "lines": [
+    {
+      "code": "BR",
+      "name": "文湖線",
+      "nameEn": "Wenhu Line",
+      "color": "#C48C31",
+      "textColor": "#FFFFFF",
+      "terminal0": "南港展覽館",
+      "terminal1": "動物園",
+      "stations": [
+        {
+          "code": "BR01",
+          "name": "動物園"
+        },
+        {
+          "code": "BR02",
+          "name": "木柵"
+        },
+        {
+          "code": "BR03",
+          "name": "萬芳社區"
+        },
+        {
+          "code": "BR04",
+          "name": "萬芳醫院"
+        },
+        {
+          "code": "BR05",
+          "name": "辛亥"
+        },
+        {
+          "code": "BR06",
+          "name": "麟光"
+        },
+        {
+          "code": "BR07",
+          "name": "六張犁"
+        },
+        {
+          "code": "BR08",
+          "name": "科技大樓"
+        },
+        {
+          "code": "BR09",
+          "name": "大安"
+        },
+        {
+          "code": "BR10",
+          "name": "忠孝復興"
+        },
+        {
+          "code": "BR11",
+          "name": "南京復興"
+        },
+        {
+          "code": "BR12",
+          "name": "中山國中"
+        },
+        {
+          "code": "BR13",
+          "name": "松山機場"
+        },
+        {
+          "code": "BR14",
+          "name": "大直"
+        },
+        {
+          "code": "BR15",
+          "name": "劍南路"
+        },
+        {
+          "code": "BR16",
+          "name": "西湖"
+        },
+        {
+          "code": "BR17",
+          "name": "港墘"
+        },
+        {
+          "code": "BR18",
+          "name": "文德"
+        },
+        {
+          "code": "BR19",
+          "name": "內湖"
+        },
+        {
+          "code": "BR20",
+          "name": "大湖公園"
+        },
+        {
+          "code": "BR21",
+          "name": "葫洲"
+        },
+        {
+          "code": "BR22",
+          "name": "東湖"
+        },
+        {
+          "code": "BR23",
+          "name": "南港軟體園區"
+        },
+        {
+          "code": "BR24",
+          "name": "南港展覽館"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "name": "淡水信義線",
+      "nameEn": "Tamsui-Xinyi Line",
+      "color": "#E3002C",
+      "textColor": "#FFFFFF",
+      "terminal0": "淡水",
+      "terminal1": "廣慈/奉天宮",
+      "stations": [
+        {
+          "code": "R01",
+          "name": "廣慈/奉天宮"
+        },
+        {
+          "code": "R02",
+          "name": "象山"
+        },
+        {
+          "code": "R03",
+          "name": "台北101/世貿"
+        },
+        {
+          "code": "R04",
+          "name": "信義安和"
+        },
+        {
+          "code": "R05",
+          "name": "大安"
+        },
+        {
+          "code": "R06",
+          "name": "大安森林公園"
+        },
+        {
+          "code": "R07",
+          "name": "東門"
+        },
+        {
+          "code": "R08",
+          "name": "中正紀念堂"
+        },
+        {
+          "code": "R09",
+          "name": "台大醫院"
+        },
+        {
+          "code": "R10",
+          "name": "台北車站"
+        },
+        {
+          "code": "R11",
+          "name": "中山"
+        },
+        {
+          "code": "R12",
+          "name": "雙連"
+        },
+        {
+          "code": "R13",
+          "name": "民權西路"
+        },
+        {
+          "code": "R14",
+          "name": "圓山"
+        },
+        {
+          "code": "R15",
+          "name": "劍潭"
+        },
+        {
+          "code": "R16",
+          "name": "士林"
+        },
+        {
+          "code": "R17",
+          "name": "芝山"
+        },
+        {
+          "code": "R18",
+          "name": "明德"
+        },
+        {
+          "code": "R19",
+          "name": "石牌"
+        },
+        {
+          "code": "R20",
+          "name": "唭哩岸"
+        },
+        {
+          "code": "R21",
+          "name": "奇岩"
+        },
+        {
+          "code": "R22",
+          "name": "北投"
+        },
+        {
+          "code": "R23",
+          "name": "復興崗"
+        },
+        {
+          "code": "R24",
+          "name": "忠義"
+        },
+        {
+          "code": "R25",
+          "name": "關渡"
+        },
+        {
+          "code": "R26",
+          "name": "竹圍"
+        },
+        {
+          "code": "R27",
+          "name": "紅樹林"
+        },
+        {
+          "code": "R28",
+          "name": "淡水"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "name": "松山新店線",
+      "nameEn": "Songshan-Xindian Line",
+      "color": "#008659",
+      "textColor": "#FFFFFF",
+      "terminal0": "松山",
+      "terminal1": "新店",
+      "stations": [
+        {
+          "code": "G01",
+          "name": "新店"
+        },
+        {
+          "code": "G02",
+          "name": "新店區公所"
+        },
+        {
+          "code": "G03",
+          "name": "七張"
+        },
+        {
+          "code": "G04",
+          "name": "大坪林"
+        },
+        {
+          "code": "G05",
+          "name": "景美"
+        },
+        {
+          "code": "G06",
+          "name": "萬隆"
+        },
+        {
+          "code": "G07",
+          "name": "公館"
+        },
+        {
+          "code": "G08",
+          "name": "台電大樓"
+        },
+        {
+          "code": "G09",
+          "name": "古亭"
+        },
+        {
+          "code": "G10",
+          "name": "中正紀念堂"
+        },
+        {
+          "code": "G11",
+          "name": "小南門"
+        },
+        {
+          "code": "G12",
+          "name": "西門"
+        },
+        {
+          "code": "G13",
+          "name": "北門"
+        },
+        {
+          "code": "G14",
+          "name": "中山"
+        },
+        {
+          "code": "G15",
+          "name": "松江南京"
+        },
+        {
+          "code": "G16",
+          "name": "南京復興"
+        },
+        {
+          "code": "G17",
+          "name": "台北小巨蛋"
+        },
+        {
+          "code": "G18",
+          "name": "南京三民"
+        },
+        {
+          "code": "G19",
+          "name": "松山"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "name": "中和新蘆線",
+      "nameEn": "Zhonghe-Xinlu Line",
+      "color": "#F8B61C",
+      "textColor": "#000000",
+      "terminal0": "迴龍 / 蘆洲",
+      "terminal1": "南勢角",
+      "stations": [
+        {
+          "code": "O01",
+          "name": "南勢角"
+        },
+        {
+          "code": "O02",
+          "name": "景安"
+        },
+        {
+          "code": "O03",
+          "name": "永安市場"
+        },
+        {
+          "code": "O04",
+          "name": "頂溪"
+        },
+        {
+          "code": "O05",
+          "name": "古亭"
+        },
+        {
+          "code": "O06",
+          "name": "東門"
+        },
+        {
+          "code": "O07",
+          "name": "忠孝新生"
+        },
+        {
+          "code": "O08",
+          "name": "松江南京"
+        },
+        {
+          "code": "O09",
+          "name": "行天宮"
+        },
+        {
+          "code": "O10",
+          "name": "中山國小"
+        },
+        {
+          "code": "O11",
+          "name": "民權西路"
+        },
+        {
+          "code": "O12",
+          "name": "大橋頭"
+        },
+        {
+          "code": "O13",
+          "name": "台北橋"
+        },
+        {
+          "code": "O14",
+          "name": "菜寮"
+        },
+        {
+          "code": "O15",
+          "name": "三重"
+        },
+        {
+          "code": "O16",
+          "name": "先嗇宮"
+        },
+        {
+          "code": "O17",
+          "name": "頭前庄"
+        },
+        {
+          "code": "O18",
+          "name": "新莊"
+        },
+        {
+          "code": "O19",
+          "name": "輔大"
+        },
+        {
+          "code": "O20",
+          "name": "丹鳳"
+        },
+        {
+          "code": "O21",
+          "name": "迴龍"
+        },
+        {
+          "code": "O50",
+          "name": "三重國小"
+        },
+        {
+          "code": "O51",
+          "name": "三和國中"
+        },
+        {
+          "code": "O52",
+          "name": "徐匯中學"
+        },
+        {
+          "code": "O53",
+          "name": "三民高中"
+        },
+        {
+          "code": "O54",
+          "name": "蘆洲"
+        }
+      ]
+    },
+    {
+      "code": "BL",
+      "name": "板南線",
+      "nameEn": "Bannan Line",
+      "color": "#0070BD",
+      "textColor": "#FFFFFF",
+      "terminal0": "南港展覽館",
+      "terminal1": "頂埔",
+      "stations": [
+        {
+          "code": "BL01",
+          "name": "頂埔"
+        },
+        {
+          "code": "BL02",
+          "name": "永寧"
+        },
+        {
+          "code": "BL03",
+          "name": "土城"
+        },
+        {
+          "code": "BL04",
+          "name": "海山"
+        },
+        {
+          "code": "BL05",
+          "name": "亞東醫院"
+        },
+        {
+          "code": "BL06",
+          "name": "府中"
+        },
+        {
+          "code": "BL07",
+          "name": "板橋"
+        },
+        {
+          "code": "BL08",
+          "name": "新埔"
+        },
+        {
+          "code": "BL09",
+          "name": "江子翠"
+        },
+        {
+          "code": "BL10",
+          "name": "龍山寺"
+        },
+        {
+          "code": "BL11",
+          "name": "西門"
+        },
+        {
+          "code": "BL12",
+          "name": "台北車站"
+        },
+        {
+          "code": "BL13",
+          "name": "善導寺"
+        },
+        {
+          "code": "BL14",
+          "name": "忠孝新生"
+        },
+        {
+          "code": "BL15",
+          "name": "忠孝復興"
+        },
+        {
+          "code": "BL16",
+          "name": "忠孝敦化"
+        },
+        {
+          "code": "BL17",
+          "name": "國父紀念館"
+        },
+        {
+          "code": "BL18",
+          "name": "市政府"
+        },
+        {
+          "code": "BL19",
+          "name": "永春"
+        },
+        {
+          "code": "BL20",
+          "name": "後山埤"
+        },
+        {
+          "code": "BL21",
+          "name": "昆陽"
+        },
+        {
+          "code": "BL22",
+          "name": "南港"
+        },
+        {
+          "code": "BL23",
+          "name": "南港展覽館"
+        }
+      ]
+    },
+    {
+      "code": "Y",
+      "name": "環狀線",
+      "nameEn": "Circular Line",
+      "color": "#E5C200",
+      "textColor": "#000000",
+      "terminal0": "新北產業園區",
+      "terminal1": "大坪林",
+      "stations": [
+        {
+          "code": "Y07",
+          "name": "大坪林"
+        },
+        {
+          "code": "Y08",
+          "name": "十四張"
+        },
+        {
+          "code": "Y09",
+          "name": "秀朗橋"
+        },
+        {
+          "code": "Y10",
+          "name": "景平"
+        },
+        {
+          "code": "Y11",
+          "name": "景安"
+        },
+        {
+          "code": "Y12",
+          "name": "中和"
+        },
+        {
+          "code": "Y13",
+          "name": "橋和"
+        },
+        {
+          "code": "Y14",
+          "name": "中原"
+        },
+        {
+          "code": "Y15",
+          "name": "板新"
+        },
+        {
+          "code": "Y16",
+          "name": "板橋"
+        },
+        {
+          "code": "Y17",
+          "name": "新埔民生"
+        },
+        {
+          "code": "Y18",
+          "name": "頭前庄"
+        },
+        {
+          "code": "Y19",
+          "name": "幸福"
+        },
+        {
+          "code": "Y20",
+          "name": "新北產業園區"
+        }
+      ]
+    }
+  ],
+  "stations": {
+    "BL01": {
+      "code": "BL01",
+      "name": "頂埔",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        }
+      ]
+    },
+    "BL02": {
+      "code": "BL02",
+      "name": "永寧",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL03": {
+      "code": "BL03",
+      "name": "土城",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL04": {
+      "code": "BL04",
+      "name": "海山",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL05": {
+      "code": "BL05",
+      "name": "亞東醫院",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL06": {
+      "code": "BL06",
+      "name": "府中",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL07": {
+      "code": "BL07",
+      "name": "板橋",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL08": {
+      "code": "BL08",
+      "name": "新埔",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL09": {
+      "code": "BL09",
+      "name": "江子翠",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL10": {
+      "code": "BL10",
+      "name": "龍山寺",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL11": {
+      "code": "BL11",
+      "name": "西門",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL12": {
+      "code": "BL12",
+      "name": "台北車站",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL13": {
+      "code": "BL13",
+      "name": "善導寺",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL14": {
+      "code": "BL14",
+      "name": "忠孝新生",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL15": {
+      "code": "BL15",
+      "name": "忠孝復興",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL16": {
+      "code": "BL16",
+      "name": "忠孝敦化",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL17": {
+      "code": "BL17",
+      "name": "國父紀念館",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL18": {
+      "code": "BL18",
+      "name": "市政府",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL19": {
+      "code": "BL19",
+      "name": "永春",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL20": {
+      "code": "BL20",
+      "name": "後山埤",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL21": {
+      "code": "BL21",
+      "name": "昆陽",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL22": {
+      "code": "BL22",
+      "name": "南港",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL23南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BL23": {
+      "code": "BL23",
+      "name": "南港展覽館",
+      "line": "BL",
+      "directions": [
+        {
+          "dirText": "往BL05亞東醫院站、BL01頂埔站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR01": {
+      "code": "BR01",
+      "name": "動物園",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        }
+      ]
+    },
+    "BR02": {
+      "code": "BR02",
+      "name": "木柵",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR03": {
+      "code": "BR03",
+      "name": "萬芳社區",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR04": {
+      "code": "BR04",
+      "name": "萬芳醫院",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR05": {
+      "code": "BR05",
+      "name": "辛亥",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR06": {
+      "code": "BR06",
+      "name": "麟光",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR07": {
+      "code": "BR07",
+      "name": "六張犁",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR08": {
+      "code": "BR08",
+      "name": "科技大樓",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR09": {
+      "code": "BR09",
+      "name": "大安",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR10": {
+      "code": "BR10",
+      "name": "忠孝復興",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR11": {
+      "code": "BR11",
+      "name": "南京復興",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR12": {
+      "code": "BR12",
+      "name": "中山國中",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR13": {
+      "code": "BR13",
+      "name": "松山機場",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR14": {
+      "code": "BR14",
+      "name": "大直",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR15": {
+      "code": "BR15",
+      "name": "劍南路",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR16": {
+      "code": "BR16",
+      "name": "西湖",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR17": {
+      "code": "BR17",
+      "name": "港墘",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR18": {
+      "code": "BR18",
+      "name": "文德",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR19": {
+      "code": "BR19",
+      "name": "內湖",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR20": {
+      "code": "BR20",
+      "name": "大湖公園",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR21": {
+      "code": "BR21",
+      "name": "葫洲",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR22": {
+      "code": "BR22",
+      "name": "東湖",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR23": {
+      "code": "BR23",
+      "name": "南港軟體園區",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR24南港展覽館站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "BR24": {
+      "code": "BR24",
+      "name": "南港展覽館",
+      "line": "BR",
+      "directions": [
+        {
+          "dirText": "往BR01動物園站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G01": {
+      "code": "G01",
+      "name": "新店",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        }
+      ]
+    },
+    "G02": {
+      "code": "G02",
+      "name": "新店區公所",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G03": {
+      "code": "G03",
+      "name": "七張",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G04": {
+      "code": "G04",
+      "name": "大坪林",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G05": {
+      "code": "G05",
+      "name": "景美",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G06": {
+      "code": "G06",
+      "name": "萬隆",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G07": {
+      "code": "G07",
+      "name": "公館",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G08": {
+      "code": "G08",
+      "name": "台電大樓",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G09": {
+      "code": "G09",
+      "name": "古亭",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G10": {
+      "code": "G10",
+      "name": "中正紀念堂",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G11": {
+      "code": "G11",
+      "name": "小南門",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G12": {
+      "code": "G12",
+      "name": "西門",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G13": {
+      "code": "G13",
+      "name": "北門",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G14": {
+      "code": "G14",
+      "name": "中山",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G15": {
+      "code": "G15",
+      "name": "松江南京",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G16": {
+      "code": "G16",
+      "name": "南京復興",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G17": {
+      "code": "G17",
+      "name": "台北小巨蛋",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G18": {
+      "code": "G18",
+      "name": "南京三民",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G19松山站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "G19": {
+      "code": "G19",
+      "name": "松山",
+      "line": "G",
+      "directions": [
+        {
+          "dirText": "往G08台電大樓站、G01新店站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O01": {
+      "code": "O01",
+      "name": "南勢角",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        }
+      ]
+    },
+    "O02": {
+      "code": "O02",
+      "name": "景安",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O03": {
+      "code": "O03",
+      "name": "永安市場",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O04": {
+      "code": "O04",
+      "name": "頂溪",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O05": {
+      "code": "O05",
+      "name": "古亭",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O06": {
+      "code": "O06",
+      "name": "東門",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O07": {
+      "code": "O07",
+      "name": "忠孝新生",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O08": {
+      "code": "O08",
+      "name": "松江南京",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O09": {
+      "code": "O09",
+      "name": "行天宮",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O10": {
+      "code": "O10",
+      "name": "中山國小",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O11": {
+      "code": "O11",
+      "name": "民權西路",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O12": {
+      "code": "O12",
+      "name": "大橋頭",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站、O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O13": {
+      "code": "O13",
+      "name": "台北橋",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O14": {
+      "code": "O14",
+      "name": "菜寮",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O15": {
+      "code": "O15",
+      "name": "三重",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O16": {
+      "code": "O16",
+      "name": "先嗇宮",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O17": {
+      "code": "O17",
+      "name": "頭前庄",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O18": {
+      "code": "O18",
+      "name": "新莊",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O19": {
+      "code": "O19",
+      "name": "輔大",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O20": {
+      "code": "O20",
+      "name": "丹鳳",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O21迴龍站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O21": {
+      "code": "O21",
+      "name": "迴龍",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O50": {
+      "code": "O50",
+      "name": "三重國小",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O51": {
+      "code": "O51",
+      "name": "三和國中",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O52": {
+      "code": "O52",
+      "name": "徐匯中學",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O53": {
+      "code": "O53",
+      "name": "三民高中",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O54蘆洲站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "O54": {
+      "code": "O54",
+      "name": "蘆洲",
+      "line": "O",
+      "directions": [
+        {
+          "dirText": "往O01南勢角站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R01": {
+      "code": "R01",
+      "name": "廣慈/奉天宮",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        }
+      ]
+    },
+    "R02": {
+      "code": "R02",
+      "name": "象山",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R03": {
+      "code": "R03",
+      "name": "台北101/世貿",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R04": {
+      "code": "R04",
+      "name": "信義安和",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R05": {
+      "code": "R05",
+      "name": "大安",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R06": {
+      "code": "R06",
+      "name": "大安森林公園",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R07": {
+      "code": "R07",
+      "name": "東門",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R08": {
+      "code": "R08",
+      "name": "中正紀念堂",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R09": {
+      "code": "R09",
+      "name": "台大醫院",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R10": {
+      "code": "R10",
+      "name": "台北車站",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R11": {
+      "code": "R11",
+      "name": "中山",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R12": {
+      "code": "R12",
+      "name": "雙連",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R13": {
+      "code": "R13",
+      "name": "民權西路",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R14": {
+      "code": "R14",
+      "name": "圓山",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R15": {
+      "code": "R15",
+      "name": "劍潭",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R16": {
+      "code": "R16",
+      "name": "士林",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R17": {
+      "code": "R17",
+      "name": "芝山",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R18": {
+      "code": "R18",
+      "name": "明德",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R19": {
+      "code": "R19",
+      "name": "石牌",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R20": {
+      "code": "R20",
+      "name": "唭哩岸",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R21": {
+      "code": "R21",
+      "name": "奇岩",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R22": {
+      "code": "R22",
+      "name": "北投",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R22北投站、R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R23": {
+      "code": "R23",
+      "name": "復興崗",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R24": {
+      "code": "R24",
+      "name": "忠義",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R25": {
+      "code": "R25",
+      "name": "關渡",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R26": {
+      "code": "R26",
+      "name": "竹圍",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R27": {
+      "code": "R27",
+      "name": "紅樹林",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R28淡水站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "R28": {
+      "code": "R28",
+      "name": "淡水",
+      "line": "R",
+      "directions": [
+        {
+          "dirText": "往R05大安站、R01廣慈/奉天宮站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y07": {
+      "code": "Y07",
+      "name": "大坪林",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        }
+      ]
+    },
+    "Y08": {
+      "code": "Y08",
+      "name": "十四張",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y09": {
+      "code": "Y09",
+      "name": "秀朗橋",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y10": {
+      "code": "Y10",
+      "name": "景平",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y11": {
+      "code": "Y11",
+      "name": "景安",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y12": {
+      "code": "Y12",
+      "name": "中和",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y13": {
+      "code": "Y13",
+      "name": "橋和",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y14": {
+      "code": "Y14",
+      "name": "中原",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y15": {
+      "code": "Y15",
+      "name": "板新",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y16": {
+      "code": "Y16",
+      "name": "板橋",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y17": {
+      "code": "Y17",
+      "name": "新埔民生",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y18": {
+      "code": "Y18",
+      "name": "頭前庄",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y19": {
+      "code": "Y19",
+      "name": "幸福",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y20新北產業園區站",
+          "dirCode": 0
+        },
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    },
+    "Y20": {
+      "code": "Y20",
+      "name": "新北產業園區",
+      "line": "Y",
+      "directions": [
+        {
+          "dirText": "往Y07大坪林站",
+          "dirCode": 1
+        }
+      ]
+    }
+  },
+  "totalStations": 134,
+  "updatedAt": "2026-09-04"
+}

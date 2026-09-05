@@ -1,0 +1,2080 @@
+{
+  "StationName": "大坪林",
+  "StationCode": "Y07",
+  "LineID": "Y",
+  "Timetables": [
+    {
+      "Direction": "往Y20新北產業園區站",
+      "DirectionCode": 0,
+      "DestinationNotice": null,
+      "EffectiveFrom": "2026-08-30",
+      "Schedule": [
+        {
+          "Days": "1,2,3,4,5",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:15",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:27",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:34",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:07",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:12",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:21",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:31",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:36",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:42",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:06",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:15",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:25",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:29",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:35",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:45",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:55",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:17",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:25",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:34",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:42",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:55",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:02",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:17",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:24",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:32",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:24",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:34",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:44",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:54",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:59",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:07",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:13",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:17",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:22",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:27",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:37",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:42",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:47",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:52",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:06",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:15",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:25",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:29",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:36",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:46",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:55",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:04",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:14",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:24",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:51",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:01",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:59",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:29",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:39",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:38",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:58",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:04",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:12",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:24",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:36",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "6",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:27",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:35",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:42",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:58",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:29",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:25",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:58",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:04",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:12",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:24",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:36",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "7",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:27",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:35",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:42",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:58",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:29",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:09",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:25",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:56",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:03",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:11",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:26",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:41",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:19",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:50",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:10",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:20",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:30",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:40",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:49",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:58",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:04",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:12",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:24",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:36",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:48",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:00",
+              "Dst": "新北產業園區",
+              "IsShuttle": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

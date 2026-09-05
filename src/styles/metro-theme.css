@@ -1,0 +1,133 @@
+/* 專業鐵路時刻表設計系統 (Professional Railway Timetable Design System) */
+
+:root,
+[data-theme="light"] {
+  --bg-app: #f3f4f6;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f9fafb;
+  --bg-header: #1f2937;
+  --bg-header-text: #ffffff;
+  --bg-active-row: #eef2ff;
+  
+  --border-main: #d1d5db;
+  --border-strong: #9ca3af;
+  --border-dark: #111827;
+  
+  --text-main: #111827;
+  --text-muted: #4b5563;
+  --text-subtle: #6b7280;
+  
+  --line-bl: #0070BD;
+  --line-g: #008659;
+  --line-r: #E3002C;
+  --line-o: #E89B00;
+  --line-br: #996515;
+  --line-y: #D9A300;
+
+  --shuttle-color: #b45309;
+  --shuttle-bg: #fef3c7;
+  --shuttle-underline: #b45309;
+
+  --live-color: #047857;
+  --live-bg: #d1fae5;
+  
+  --radius-sharp: 2px;
+  --radius-box: 4px;
+  
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans TC", sans-serif;
+  --font-mono: "SF Mono", "Roboto Mono", Menlo, Consolas, monospace;
+}
+
+[data-theme="dark"] {
+  --bg-app: #0f1318;
+  --bg-surface: #181d24;
+  --bg-subtle: #21262d;
+  --bg-header: #090c10;
+  --bg-header-text: #f0f6fc;
+  --bg-active-row: #1f2937;
+  
+  --border-main: #30363d;
+  --border-strong: #484f58;
+  --border-dark: #8b949e;
+  
+  --text-main: #f0f6fc;
+  --text-muted: #8b949e;
+  --text-subtle: #6e7681;
+  
+  --line-bl: #1f8ad2;
+  --line-g: #0fa36d;
+  --line-r: #f03d4b;
+  --line-o: #f5a81c;
+  --line-br: #c48c31;
+  --line-y: #e5c200;
+
+  --shuttle-color: #f59e0b;
+  --shuttle-bg: #32230a;
+  --shuttle-underline: #f59e0b;
+
+  --live-color: #10b981;
+  --live-bg: #064e3b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-variant-numeric: tabular-nums lining-nums;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+/* 專業實線方格面板 (Professional Solid Grid Panel) */
+.grid-panel {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-box);
+}
+
+/* 路線識別標籤 (Solid Clean Line Badge) */
+.badge-line {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  border-radius: var(--radius-sharp);
+  padding: 2px 6px;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.badge-bl { background-color: var(--line-bl); color: #fff; }
+.badge-g  { background-color: var(--line-g);  color: #fff; }
+.badge-r  { background-color: var(--line-r);  color: #fff; }
+.badge-o  { background-color: var(--line-o);  color: #000; }
+.badge-br { background-color: var(--line-br); color: #fff; }
+.badge-y  { background-color: var(--line-y);  color: #000; }
+
+/* 狀態指示燈 (Simple solid indicator) */
+.status-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--live-color);
+}

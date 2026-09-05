@@ -1,0 +1,2004 @@
+{
+  "StationName": "淡水",
+  "StationCode": "R28",
+  "Timetables": [
+    {
+      "Direction": "往R05大安站、R01廣慈/奉天宮站",
+      "DirectionCode": 1,
+      "DestinationNotice": null,
+      "EffectiveFrom": "2026-08-30",
+      "Schedule": [
+        {
+          "Days": "1,2,3,4,5",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:24",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:32",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:39",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:50",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:03",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:07",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:12",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:20",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:25",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:36",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:42",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:51",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:55",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:01",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:07",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:14",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:20",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:27",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:33",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:53",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:17",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:26",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:44",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:53",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:20",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:29",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:14",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:23",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:32",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:41",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:50",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:17",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:26",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:44",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:53",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:11",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:20",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:29",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:14",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:23",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:32",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:41",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:50",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:17",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:22",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:29",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:42",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:55",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:01",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:14",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:27",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:34",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:53",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:06",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:12",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:18",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:25",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:31",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:44",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:51",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:57",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:10",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:17",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:23",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:36",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:43",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:50",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:58",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:22",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:39",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:55",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:12",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:28",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:36",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:06",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:26",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:36",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:57",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:09",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:00",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "6",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:17",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:25",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:44",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:03",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:11",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:19",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:27",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:44",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:52",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:00",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:24",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:33",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:41",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:49",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:57",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:22",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:19",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:27",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:43",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:51",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:24",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:32",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:49",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:57",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:29",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:10",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:27",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:43",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:51",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:07",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:24",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:32",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:28",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:34",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:41",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:48",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:55",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:09",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:17",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:23",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:37",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:44",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:51",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:58",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:06",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:12",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:19",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:26",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:33",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:01",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:15",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:22",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:29",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:39",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:48",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:22",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:39",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:55",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:12",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:28",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:36",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:06",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:26",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:36",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:57",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:09",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:00",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            }
+          ]
+        },
+        {
+          "Days": "7",
+          "Departures": [
+            {
+              "Time": "06:00",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:17",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:25",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:44",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "06:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:14",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:24",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:34",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:43",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "07:53",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:12",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:31",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:50",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "08:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:09",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:18",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:28",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:37",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "09:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:11",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:19",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:27",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:43",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:51",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "10:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:08",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:24",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:32",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:49",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "11:57",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:29",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "12:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:10",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:18",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:27",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:35",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:43",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:51",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "13:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:07",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:24",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:32",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:48",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "14:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:29",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:37",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:45",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "15:54",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:02",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:10",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:18",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:26",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:34",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:43",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:51",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "16:59",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:07",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:15",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:23",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:32",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:40",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:48",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "17:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:12",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:39",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:48",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "18:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:05",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:22",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:39",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "19:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:13",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:30",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:38",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "20:55",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:04",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:12",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:28",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:36",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "21:56",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:06",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:16",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:26",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:36",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:46",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "22:57",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:09",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:21",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:34",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "23:47",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            },
+            {
+              "Time": "00:00",
+              "Dst": "廣慈/奉天宮",
+              "IsShuttle": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

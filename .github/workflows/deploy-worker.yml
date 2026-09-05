@@ -1,0 +1,45 @@
+name: Deploy TDX Proxy Worker to Cloudflare
+
+on:
+  push:
+    paths:
+      - 'worker/**'
+      - '.github/workflows/deploy-worker.yml'
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-worker:
+    runs-on: ubuntu-latest
+    name: Deploy Cloudflare Worker
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: worker/package.json
+
+      - name: Install dependencies
+        working-directory: worker
+        run: npm install
+
+      - name: Deploy Worker via Wrangler Action
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: 'worker'
+          secrets: |
+            TDX_CLIENT_ID
+            TDX_CLIENT_SECRET
+        env:
+          TDX_CLIENT_ID: ${{ secrets.TDX_CLIENT_ID }}
+          TDX_CLIENT_SECRET: ${{ secrets.TDX_CLIENT_SECRET }}
