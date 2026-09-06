@@ -155,15 +155,13 @@ curl -X 'GET' \
 
 本專案的前端介面與更新腳本皆已內建 TDX 支援：
 
-### 途徑 A：前端網頁設定（啟用即時到站看板）
-1. 開啟本專案網頁（本地開發 `http://localhost:5173` 或 GitHub Pages）。
-2. 點擊右上角的 **⚙️ 設定圖示** 開啟設定面板。
-3. 勾選「**啟用 TDX 即時看板**」。
-4. 依序填入你的：
-   - **TDX Client ID**
-   - **TDX Client Secret**
-5. 點擊「**測試連線**」，系統會呼叫 OAuth 換證確認。顯示「✅ 連線成功」後點擊儲存。
-6. 設定儲存於瀏覽器本地 `localStorage`，不會上傳至伺服器或存入 Git。
+### 途徑 A：前端網頁智慧雙軌架構（IP 額度優先 + OAuth2 自動容錯升級）
+本專案採用最優化的調用策略：
+1. **第一順位（預設）**：優先使用使用者的**來源端 IP 每日 20 次免費額度**，直接由瀏覽器發起 TDX 官方查詢，100% 免金鑰、官方直通。
+2. **第二順位（自動升級）**：當來源端 IP 每日 20 次額度用罄觸發 **HTTP 429** 時，系統**自動無縫切換至 Cloudflare Worker 代理**，透過 Worker 端配置的 `TDX_CLIENT_ID` 與 `TDX_CLIENT_SECRET` 走 **OAuth 2.0 Client Credentials** 呼叫，並解鎖全路網 25 秒快取安全輪詢。
+3. **配置方式**：
+   - 部署你的 Worker（詳見 `docs/CLOUDFLARE_WORKER_DEPLOY.md`），或於右上角 **⚙️ 系統設定** 中填入 Worker 網址。
+   - 平時自動享用 IP 額度，額度耗盡時無感切換至 OAuth2 Worker 代理，徹底避免中斷！
 
 ### 途徑 B：本機批次抓取腳本 (`scripts/fetch_tdx.py`)
 若要使用 TDX 資料批次更新本地站點 JSON：

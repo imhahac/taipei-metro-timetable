@@ -9,7 +9,13 @@ import {
   getScheduleForDay,
   groupDeparturesByHour,
 } from '../services/timetableEngine';
-import { fetchLiveBoard, TDXLiveItem, getLiveBoardMode, getGuestRemainingQuota } from '../services/tdxService';
+import {
+  fetchLiveBoardWithEngine,
+  TDXLiveItem,
+  getLiveBoardMode,
+  getGuestRemainingQuota,
+  getEffectiveWorkerUrl,
+} from '../services/tdxService';
 
 interface StationBoardProps {
   station: StationSummary;
@@ -36,13 +42,15 @@ export const StationBoard: React.FC<StationBoardProps> = ({
   const [liveArrivals, setLiveArrivals] = useState<TDXLiveItem[] | null>(null);
   const [isLiveActive, setIsLiveActive] = useState<boolean>(false);
   const [isRefreshing, setIsRefreshing] = useState<boolean>(false);
-  const liveMode = getLiveBoardMode();
+  const [activeEngine, setActiveEngine] = useState<'guest' | 'worker'>(getLiveBoardMode());
+  const [isFallback, setIsFallback] = useState<boolean>(false);
   const [guestQuota, setGuestQuota] = useState<number | null>(getGuestRemainingQuota());
   const [quotaToast, setQuotaToast] = useState<string | null>(null);
 
   const handleManualRefresh = async () => {
-    if (liveMode === 'guest' && guestQuota === 0) {
-      setQuotaToast('今日 TDX 訪客直連額度 (20次/日) 已全數用罄，目前維持離線班表推算。明日 08:00 重置，或配置 Worker 享無限制更新！');
+    // 若處於訪客模式且已知額度已為 0，且未配置 Worker
+    if (activeEngine === 'guest' && guestQuota === 0 && !getEffectiveWorkerUrl()) {
+      setQuotaToast('今日 TDX 來源端 IP 額度 (20次/日) 已全數用罄，目前維持離線班表推算。明日重置，或於設定中填入 Worker 網址！');
       setTimeout(() => setQuotaToast(null), 5000);
       return;
     }
@@ -50,23 +58,29 @@ export const StationBoard: React.FC<StationBoardProps> = ({
     setIsRefreshing(true);
     setQuotaToast(null);
     try {
-      const items = await fetchLiveBoard(station.code, true);
-      const updatedQuota = getGuestRemainingQuota();
-      setGuestQuota(updatedQuota);
+      const result = await fetchLiveBoardWithEngine(station.code, true);
+      setActiveEngine(result.activeEngine);
+      setIsFallback(result.isFallback);
+      setGuestQuota(result.guestQuota);
 
-      if (items !== null) {
-        setLiveArrivals(items);
+      if (result.items !== null) {
+        setLiveArrivals(result.items);
         setIsLiveActive(true);
-        if (items.length > 0) {
-          setQuotaToast('已成功同步實體即時動態 (月台列車停靠中)！');
+
+        if (result.isFallback) {
+          setQuotaToast('⚡ 來源端 IP 額度已達上限 (429)，已自動無縫切換至 Worker (OAuth2 模式)！');
+        } else if (result.activeEngine === 'worker') {
+          setQuotaToast(result.items.length > 0 ? '已同步 Worker 即時車況 (月台有車)' : 'Worker 連線正常：目前月台無停靠車');
         } else {
-          setQuotaToast('Worker 連線正常：目前月台無停靠車，依時刻表推算發車倒數');
+          setQuotaToast(
+            `已同步 TDX 訪客即時動態 (今日來源端 IP 額度剩 ${result.guestQuota !== null ? result.guestQuota : '≤20'} 次)`
+          );
         }
       } else {
         setLiveArrivals(null);
         setIsLiveActive(false);
-        if (liveMode === 'guest' && updatedQuota === 0) {
-          setQuotaToast('今日 TDX 訪客直連額度 (20次/日) 已達上限 (HTTP 429)，自動降級為離線班表。');
+        if (result.guestQuota === 0) {
+          setQuotaToast('今日 TDX 來源端 IP 額度 (20次/日) 已達上限 (HTTP 429)，自動降級為離線時刻表推算。');
         } else {
           setQuotaToast('連線異常，目前維持離線時刻表推算');
         }
@@ -99,23 +113,33 @@ export const StationBoard: React.FC<StationBoardProps> = ({
       }
 
       try {
-        const items = await fetchLiveBoard(station.code);
+        const result = await fetchLiveBoardWithEngine(station.code);
         if (!isMounted) return;
-        setGuestQuota(getGuestRemainingQuota());
 
-        if (items !== null) {
-          // 成功取得資料 (即便長度為 0 亦代表 Worker 連線正常且確認月台目前無車)
-          setLiveArrivals(items);
+        setActiveEngine(result.activeEngine);
+        setIsFallback(result.isFallback);
+        setGuestQuota(result.guestQuota);
+
+        if (result.items !== null) {
+          // 成功取得資料 (即便長度為 0 亦代表連線正常且確認月台目前無車)
+          setLiveArrivals(result.items);
           setIsLiveActive(true);
-          currentDelay = 25000;
-          if (liveMode === 'worker') {
+
+          if (result.isFallback) {
+            setQuotaToast('⚡ 來源端 IP 額度已達上限 (429)，已自動無縫切換至 Worker (OAuth2 模式)！');
+            setTimeout(() => setQuotaToast(null), 5000);
+          }
+
+          // 核心策略：僅在 Worker 模式下啟用 25 秒自動平穩輪詢；訪客模式嚴格保護 20 次額度不自動輪詢
+          if (result.activeEngine === 'worker') {
+            currentDelay = 25000;
             scheduleNext(currentDelay);
           }
         } else {
-          // 真正連線失敗 / 429
+          // 真正連線失敗 / 429 且無 Worker 可切換
           setLiveArrivals(null);
           setIsLiveActive(false);
-          if (liveMode === 'worker') {
+          if (result.activeEngine === 'worker') {
             currentDelay = Math.min(currentDelay * 1.5, 60000);
             scheduleNext(currentDelay);
           }
@@ -125,10 +149,6 @@ export const StationBoard: React.FC<StationBoardProps> = ({
         setGuestQuota(getGuestRemainingQuota());
         setLiveArrivals(null);
         setIsLiveActive(false);
-        if (liveMode === 'worker') {
-          currentDelay = Math.min(currentDelay * 1.5, 60000);
-          scheduleNext(currentDelay);
-        }
       }
     };
 
@@ -148,7 +168,7 @@ export const StationBoard: React.FC<StationBoardProps> = ({
       if (timerId) clearTimeout(timerId);
       document.removeEventListener('visibilitychange', handleVisibilityChange);
     };
-  }, [station.code, liveMode]);
+  }, [station.code]);
 
   const timetables = stationDetail?.Timetables || [];
   const currentDirection: TimetableDirection | undefined = timetables[selectedDirectionIdx] || timetables[0];
@@ -218,7 +238,7 @@ export const StationBoard: React.FC<StationBoardProps> = ({
             className="btn-secondary"
             onClick={handleManualRefresh}
             disabled={isRefreshing}
-            title={liveMode === 'worker' ? '手動強制更新到站 (Worker 模式)' : '手動更新實體到站 (消耗 1 次 TDX 訪客額度)'}
+            title={activeEngine === 'worker' ? '手動強制更新到站 (Worker OAuth2 快取模式)' : '手動更新實體到站 (消耗 1 次 TDX 來源端 IP 額度)'}
             style={{
               padding: '0.28rem 0.65rem',
               fontSize: '0.78rem',
@@ -235,20 +255,22 @@ export const StationBoard: React.FC<StationBoardProps> = ({
           </button>
 
           {isLiveActive ? (
-            liveMode === 'worker' ? (
+            activeEngine === 'worker' ? (
               <div className="status-pill live-connected" style={{ borderColor: '#3b82f6', background: 'rgba(59, 130, 246, 0.12)' }}>
                 <span className="status-indicator" style={{ backgroundColor: '#3b82f6' }}></span>
                 <span className="status-pill-text" style={{ color: '#3b82f6', fontWeight: 700 }}>
-                  {matchedLiveItem
+                  {isFallback
+                    ? '⚡ TDX 額度已滿 (429) · 已自動升級至 Worker (OAuth2 模式)'
+                    : matchedLiveItem
                     ? '⚡ Cloudflare Worker 即時動態 (列車月台停靠中)'
-                    : '⚡ Cloudflare Worker 連線中 (月台無列車 · 表定推算倒數)'}
+                    : '⚡ Cloudflare Worker (OAuth2 快取連線中 · 表定推算倒數)'}
                 </span>
               </div>
             ) : (
               <div className="status-pill live-connected" style={{ borderColor: '#ef4444', background: 'rgba(239, 68, 68, 0.12)' }}>
                 <span className="status-indicator" style={{ backgroundColor: '#ef4444' }}></span>
                 <span className="status-pill-text" style={{ color: '#ef4444', fontWeight: 700 }}>
-                  🔴 TDX 訪客直連即時 (今日剩餘 {guestQuota !== null ? guestQuota : '≤20'} 次)
+                  🔴 TDX 訪客直連中 (今日來源端 IP 額度剩 {guestQuota !== null ? guestQuota : '≤20'} 次)
                 </span>
               </div>
             )
@@ -263,39 +285,21 @@ export const StationBoard: React.FC<StationBoardProps> = ({
             <div
               className="status-pill"
               style={
-                liveMode === 'guest' && guestQuota === 0
-                  ? { borderColor: '#f59e0b', background: 'rgba(245, 158, 11, 0.12)' }
-                  : liveMode === 'worker'
+                guestQuota === 0
                   ? { borderColor: '#f59e0b', background: 'rgba(245, 158, 11, 0.12)' }
                   : undefined
               }
             >
               <span
                 className="status-indicator"
-                style={
-                  liveMode === 'guest' && guestQuota === 0
-                    ? { backgroundColor: '#f59e0b' }
-                    : liveMode === 'worker'
-                    ? { backgroundColor: '#f59e0b' }
-                    : undefined
-                }
+                style={guestQuota === 0 ? { backgroundColor: '#f59e0b' } : undefined}
               ></span>
               <span
                 className="status-pill-text"
-                style={
-                  liveMode === 'guest' && guestQuota === 0
-                    ? { color: '#f59e0b', fontWeight: 700 }
-                    : liveMode === 'worker'
-                    ? { color: '#f59e0b', fontWeight: 700 }
-                    : undefined
-                }
+                style={guestQuota === 0 ? { color: '#f59e0b', fontWeight: 700 } : undefined}
               >
-                {liveMode === 'worker'
-                  ? `🟡 表定時刻表推算中 (${formatTimeHM(currentTime)}) · Worker 重試中`
-                  : liveMode === 'guest' && guestQuota === 0
-                  ? `🟡 表定時刻表推算中 (${formatTimeHM(currentTime)}) · 訪客額度已用罄 (20次/日)`
-                  : liveMode === 'guest' && guestQuota !== null
-                  ? `🟢 表定時刻表推算中 (${formatTimeHM(currentTime)}) · 訪客額度剩 ${guestQuota} 次`
+                {guestQuota === 0
+                  ? `🟡 表定時刻表推算中 (${formatTimeHM(currentTime)}) · 來源端 IP 額度已用罄 (20次/日)`
                   : `🟢 表定時刻表推算中 (${formatTimeHM(currentTime)}) · 基準 115.8.30 版`}
               </span>
             </div>
@@ -403,7 +407,7 @@ export const StationBoard: React.FC<StationBoardProps> = ({
                     <span className="train-dst">往 {train.dst}</span>
                     {train.isShuttle && <span className="shuttle-tag">區間車</span>}
                     {idx === 0 && matchedLiveItem ? (
-                      liveMode === 'worker' ? (
+                      activeEngine === 'worker' ? (
                         <span className="shuttle-tag" style={{ background: '#2563eb', color: '#fff', fontWeight: 700 }}>
                           ⚡ Worker 即時
                         </span>
@@ -426,13 +430,13 @@ export const StationBoard: React.FC<StationBoardProps> = ({
 
                 {idx === 0 && matchedLiveItem ? (
                   <div className="card-countdown">
-                    <span className="countdown-number" style={{ color: liveMode === 'worker' ? '#3b82f6' : '#ef4444' }}>
+                    <span className="countdown-number" style={{ color: activeEngine === 'worker' ? '#3b82f6' : '#ef4444' }}>
                       {matchedLiveItem.EstimateTime <= 30 ? '進站中' : Math.ceil(matchedLiveItem.EstimateTime / 60)}
                     </span>
-                    <span className="countdown-unit" style={{ color: liveMode === 'worker' ? '#3b82f6' : '#ef4444' }}>
+                    <span className="countdown-unit" style={{ color: activeEngine === 'worker' ? '#3b82f6' : '#ef4444' }}>
                       {matchedLiveItem.EstimateTime <= 30
                         ? '列車靠站'
-                        : liveMode === 'worker'
+                        : activeEngine === 'worker'
                         ? '分後抵達 (Worker 實測)'
                         : '分後抵達 (訪客直連實測)'}
                     </span>
@@ -448,14 +452,14 @@ export const StationBoard: React.FC<StationBoardProps> = ({
 
                 <div className="card-footer">
                   <div className="dep-time-box">
-                    <Clock size={14} color={idx === 0 && matchedLiveItem ? (liveMode === 'worker' ? '#3b82f6' : '#ef4444') : undefined} />
+                    <Clock size={14} color={idx === 0 && matchedLiveItem ? (activeEngine === 'worker' ? '#3b82f6' : '#ef4444') : undefined} />
                     {idx === 0 && matchedLiveItem ? (
                       <span>
                         即時到站預估：
-                        <strong style={{ color: liveMode === 'worker' ? '#3b82f6' : '#ef4444' }}>
+                        <strong style={{ color: activeEngine === 'worker' ? '#3b82f6' : '#ef4444' }}>
                           {formatTimeHM(new Date(currentTime.getTime() + matchedLiveItem.EstimateTime * 1000))}
                         </strong>{' '}
-                        ({liveMode === 'worker' ? '⚡ Worker 連線' : '🔴 訪客直連'})
+                        ({activeEngine === 'worker' ? '⚡ Worker 連線' : '🔴 訪客直連'})
                       </span>
                     ) : (
                       <span>
